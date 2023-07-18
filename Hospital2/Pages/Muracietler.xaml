@@ -1,0 +1,22 @@
+﻿<Page x:Class="Hospital.Pages.Muracietler"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Hospital.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Muracietler">
+
+    <Grid>
+        <Border BorderThickness="1" BorderBrush="Black" Width="400" Height="300" Background="#C8d3e0">
+            <StackPanel>
+                <ListBox Width="350" Height="220" Margin="0 20 0 0"/>
+                <StackPanel Orientation="Horizontal" Margin="25 0 0 0">
+                    <TextBox Margin="0 10 0 0" FontSize="26" Background="#bab4a2" Width="300"/>
+                    <Button Content="SEND" Margin="10 10 0 0" Height="30"/>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Page>

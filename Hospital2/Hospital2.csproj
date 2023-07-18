@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\department.png" />
+    <None Remove="Images\laboratory.png" />
+    <None Remove="Images\measures.png" />
+    <None Remove="Images\operate.png" />
+    <None Remove="Images\patients.png" />
+    <None Remove="Images\question.png" />
+    <None Remove="Images\queue.png" />
+    <None Remove="Images\registration.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="UserControls\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FontAwesome.WPF" Version="4.7.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\department.png" />
+    <Resource Include="Images\laboratory.png" />
+    <Resource Include="Images\measures.png" />
+    <Resource Include="Images\operate.png" />
+    <Resource Include="Images\patients.png" />
+    <Resource Include="Images\question.png" />
+    <Resource Include="Images\queue.png" />
+    <Resource Include="Images\registration.png" />
+  </ItemGroup>
+
+</Project>
