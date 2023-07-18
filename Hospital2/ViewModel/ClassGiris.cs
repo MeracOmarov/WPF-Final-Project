@@ -12,7 +12,7 @@ using Hospital.Views;
 namespace HOSBITAL.ViewModel
 {
     public class ClassGiris
-    {
+    { 
         public RealCommand? daxilOlCommand { get; set; }
         public RealCommand? hekimlerCommand { get; set; }
         private void DaxilOl(object? sender)

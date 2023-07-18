@@ -9,7 +9,7 @@
       Title="Qeydiyyat">
 
     <Grid>
-        <Border Panel.ZIndex="1"  BorderThickness="1"  BorderBrush="Black" Width="400" Height="520">
+        <Border Panel.ZIndex="1"  BorderThickness="1"  BorderBrush="Black" Width="400" Height="440">
             <ScrollViewer>
                 <StackPanel   Background="#C8d3e0" ScrollViewer.VerticalScrollBarVisibility="Visible" >
                     <Label Content="Adiniz" Style="{StaticResource Style}"/>
