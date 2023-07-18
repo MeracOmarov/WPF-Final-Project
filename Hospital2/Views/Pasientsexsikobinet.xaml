@@ -42,7 +42,7 @@
                 </StackPanel>
 
             </StackPanel>
-            <StackPanel VerticalAlignment="Center" Orientation="Horizontal" Margin="0,80,0,0" HorizontalAlignment="Center">
+            <StackPanel VerticalAlignment="Center" Orientation="Horizontal" Margin="0,60,0,0" HorizontalAlignment="Center">
                 <StackPanel>
                     <Border Style="{StaticResource borders}">
                         <StackPanel Orientation="Vertical">
