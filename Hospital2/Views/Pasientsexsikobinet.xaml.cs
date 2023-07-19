@@ -22,10 +22,12 @@ namespace Hospital.Views
     
     public partial class Pasientsexsikobinet : Window
     {
+        public static Pasientsexsikobinet ?pasientsexsikobinet;
         public Pasientsexsikobinet()
         {
             InitializeComponent();
-            
+            DataContext = new PasientClass();
+            pasientsexsikobinet = this;       
         }
 
         

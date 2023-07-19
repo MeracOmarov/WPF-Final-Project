@@ -36,7 +36,8 @@
 
                 <StackPanel>
                     <Border Style="{StaticResource borders}" Margin="50,0,0,0">
-                        <Button Style="{StaticResource buttons}">
+                        <Button Style="{StaticResource buttons}"
+                                Command="{Binding onlineNovbeCommand}">
                             <StackPanel Orientation="Vertical">
                                 <Image Source="/Images/queue.png" Margin="0,20,0,0" Width="40" VerticalAlignment="Top"/>
                                 <TextBlock Text="Online novbe" FontWeight="Bold" Foreground="#afafaf"  HorizontalAlignment="Center" Margin="0,30,0,0"/>
@@ -71,5 +72,6 @@
 
             </StackPanel>
         </Grid>
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Grid.Row="1"/>
     </Grid>
 </Window>
