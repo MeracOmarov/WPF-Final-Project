@@ -9,7 +9,7 @@
       Title="Laboratoriya">
 
     <Grid>
-        <Border BorderThickness="1" BorderBrush="Black" Width="400" Height="300" Background="#C8d3e0">
+        <Border BorderThickness="1" BorderBrush="Black" Width="400" Height="450" Background="#C8d3e0">
             <ListBox Background="#bab4a2"/>
         </Border>
     </Grid>

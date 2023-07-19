@@ -9,7 +9,7 @@
       Title="Qebul">
 
     <Grid>
-        <Border BorderThickness="1" BorderBrush="Black" Width="400" Height="300">
+        <Border BorderThickness="1" BorderBrush="Black" Width="400" Height="450">
             <StackPanel  Background="#C8d3e0" >
                 <Label Content="Xəstəxana" Style="{StaticResource Style}"/>
                 <ListView Style="{StaticResource StyleT}" />
@@ -24,7 +24,7 @@
                 </StackPanel>
 
                 <Border Background="#3766a0" Margin="220 10 0 0" Width="120" BorderThickness="2" BorderBrush="#071e2a" CornerRadius="9">
-                    <Label Content="QEYDİYYATDAN KEÇ" Foreground="White"/>
+                    <Label Content="QEBUL" Foreground="White" HorizontalAlignment="Center"/>
                 </Border>
             </StackPanel>
         </Border>
