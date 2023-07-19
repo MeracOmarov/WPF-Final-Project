@@ -11,7 +11,7 @@
     </Style>
 
     <Style x:Key="qeydiyyat" TargetType="Button">
-        <Setter Property="Background" Value="LightBlue"/>
+        <Setter Property="Background" Value="#3766a0"/>
         <Setter Property="Foreground" Value="#fff"/>
         <Setter Property="FontSize" Value="14"/>
         <Setter Property="Margin" Value="0,10,0,0"/>
@@ -29,7 +29,7 @@
         </Setter>
         <Style.Triggers>
             <Trigger Property="IsMouseOver" Value="True">
-                <Setter Property="Background" Value="#3766a0"/>
+                <Setter Property="Background" Value="LightBlue"/>
                 <Setter Property="Foreground" Value="red"/>
             </Trigger>
 

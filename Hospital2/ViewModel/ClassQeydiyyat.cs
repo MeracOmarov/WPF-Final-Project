@@ -41,7 +41,7 @@ namespace HOSBITAL.ViewModel
             }
         }
 
-        private int myVar;
+
 
 		public event PropertyChangedEventHandler? PropertyChanged;
         protected virtual void OnPropertyChanged(string propertyName)
@@ -49,6 +49,7 @@ namespace HOSBITAL.ViewModel
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
+        private int myVar;
         public int MyProperty
 		{
 			get { return myVar; }

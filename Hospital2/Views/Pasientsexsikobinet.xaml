@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Hospital.Views"
         mc:Ignorable="d"
-        Title="Pasientsexsikobinet" WindowState="Maximized" Background="#eaeaf2"  Height="690"  MinWidth="400" Width="400" WindowStartupLocation="CenterScreen">
+        Title="Pasientsexsikobinet" WindowState="Maximized"  Background="#eaeaf2"  Height="690"   Width="400" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="0.3*"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
 
@@ -72,6 +72,6 @@
 
             </StackPanel>
         </Grid>
-        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Grid.Row="1" Margin="0,0,0,200" />
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Grid.Row="1" Margin="0,0,0,30" />
     </Grid>
 </Window>

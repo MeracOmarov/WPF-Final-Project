@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asado_ho45\\Source\\Repos\\Hospital-WPF\\Hospital2\\Hospital2.csproj": {}
+    "C:\\Users\\Asus\\Source\\Repos\\Hospital-WPF5\\Hospital2\\Hospital2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asado_ho45\\Source\\Repos\\Hospital-WPF\\Hospital2\\Hospital2.csproj": {
+    "C:\\Users\\Asus\\Source\\Repos\\Hospital-WPF5\\Hospital2\\Hospital2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asado_ho45\\Source\\Repos\\Hospital-WPF\\Hospital2\\Hospital2.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Source\\Repos\\Hospital-WPF5\\Hospital2\\Hospital2.csproj",
         "projectName": "Hospital2",
-        "projectPath": "C:\\Users\\asado_ho45\\Source\\Repos\\Hospital-WPF\\Hospital2\\Hospital2.csproj",
-        "packagesPath": "C:\\Users\\asado_ho45\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asado_ho45\\Source\\Repos\\Hospital-WPF\\Hospital2\\obj\\",
+        "projectPath": "C:\\Users\\Asus\\Source\\Repos\\Hospital-WPF5\\Hospital2\\Hospital2.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asus\\Source\\Repos\\Hospital-WPF5\\Hospital2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\asado_ho45\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -68,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
