@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hospital.ViewModel
 {
-    internal class PasientClass
+    public class PasientClass
     {
     }
 }

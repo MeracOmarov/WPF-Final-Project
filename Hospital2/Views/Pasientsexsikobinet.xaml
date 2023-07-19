@@ -25,19 +25,23 @@
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,0">
                 <StackPanel>
                     <Border Style="{StaticResource borders}">
-                        <StackPanel Orientation="Vertical">
-                            <Image Source="/Images/registration.png" Margin="0,20,0,0" Width="40" VerticalAlignment="Top"/>
-                            <TextBlock Text="Qeydiyyat" FontWeight="Bold" Foreground="#afafaf"  HorizontalAlignment="Center" Margin="0,30,0,0"/>
-                        </StackPanel>
+                        <Button Style="{StaticResource buttons}">
+                            <StackPanel Orientation="Vertical">
+                                <Image Source="/Images/registration.png" Margin="0,20,0,0" Width="40" VerticalAlignment="Top"/>
+                                <TextBlock Text="Qeydiyyat" FontWeight="Bold" Foreground="#afafaf"  HorizontalAlignment="Center" Margin="0,30,0,0"/>
+                            </StackPanel>
+                        </Button>
                     </Border>
                 </StackPanel>
 
                 <StackPanel>
                     <Border Style="{StaticResource borders}" Margin="50,0,0,0">
-                        <StackPanel Orientation="Vertical">
-                            <Image Source="/Images/queue.png" Margin="0,20,0,0" Width="40" VerticalAlignment="Top"/>
-                            <TextBlock Text="Online novbe" FontWeight="Bold" Foreground="#afafaf"  HorizontalAlignment="Center" Margin="0,30,0,0"/>
-                        </StackPanel>
+                        <Button Style="{StaticResource buttons}">
+                            <StackPanel Orientation="Vertical">
+                                <Image Source="/Images/queue.png" Margin="0,20,0,0" Width="40" VerticalAlignment="Top"/>
+                                <TextBlock Text="Online novbe" FontWeight="Bold" Foreground="#afafaf"  HorizontalAlignment="Center" Margin="0,30,0,0"/>
+                            </StackPanel>
+                        </Button>
                     </Border>
                 </StackPanel>
 
@@ -45,24 +49,27 @@
             <StackPanel VerticalAlignment="Center" Orientation="Horizontal" Margin="0,60,0,0" HorizontalAlignment="Center">
                 <StackPanel>
                     <Border Style="{StaticResource borders}">
-                        <StackPanel Orientation="Vertical">
-                            <Image Source="/Images/question.png" Margin="0,20,0,0" Width="40" VerticalAlignment="Top"/>
-                            <TextBlock Text="Sual Cavab" FontWeight="Bold" Foreground="#afafaf"  HorizontalAlignment="Center" Margin="0,30,0,0"/>
-                        </StackPanel>
+                        <Button Style="{StaticResource buttons}">
+                            <StackPanel Orientation="Vertical">
+                                <Image Source="/Images/question.png" Margin="0,20,0,0" Width="40" VerticalAlignment="Top"/>
+                                <TextBlock Text="Sual Cavab" FontWeight="Bold" Foreground="#afafaf"  HorizontalAlignment="Center" Margin="0,30,0,0"/>
+                            </StackPanel>
+                        </Button>
                     </Border>
                 </StackPanel>
 
                 <StackPanel>
                     <Border Style="{StaticResource borders}" Margin="50,0,0,0">
-                        <StackPanel Orientation="Vertical">
-                            <Image Source="/Images/laboratory.png" Margin="0,20,0,0" Width="40" VerticalAlignment="Top"/>
-                            <TextBlock  TextWrapping="Wrap" Text="Laboratoriya" FontWeight="Bold" Foreground="#afafaf"  HorizontalAlignment="Center" Margin="0,30,0,0"/>
-                        </StackPanel>
+                        <Button Style="{StaticResource buttons}">
+                            <StackPanel Orientation="Vertical">
+                                <Image Source="/Images/laboratory.png" Margin="0,20,0,0" Width="40" VerticalAlignment="Top"/>
+                                <TextBlock  TextWrapping="Wrap" Text="Laboratoriya" FontWeight="Bold" Foreground="#afafaf"  HorizontalAlignment="Center" Margin="0,30,0,0"/>
+                            </StackPanel>
+                        </Button>
                     </Border>
                 </StackPanel>
 
             </StackPanel>
-            <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Grid.Row="1"/>
         </Grid>
     </Grid>
 </Window>

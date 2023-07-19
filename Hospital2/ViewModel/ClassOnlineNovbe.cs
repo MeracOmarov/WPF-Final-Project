@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace HOSBITAL.ViewModel
 {
-    class ClassOnlineNovbe
+    public class ClassOnlineNovbe
     {
+
     }
 }

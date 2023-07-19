@@ -14,6 +14,8 @@ using System.Windows.Shapes;
 using HOSBITAL.Views;
 using HOSBITAL.Pages;
 using Hospital.Pages;
+using HOSBITAL.ViewModel;
+using Hospital.ViewModel;
 
 namespace Hospital.Views
 {
@@ -23,6 +25,7 @@ namespace Hospital.Views
         public Pasientsexsikobinet()
         {
             InitializeComponent();
+            
         }
 
         
