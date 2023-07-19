@@ -38,7 +38,7 @@
                     <Label Content="Parol yeniden daxil edin" Style="{StaticResource Style}"/>
                     <TextBox Style="{StaticResource StyleT1}"/>
 
-                    <Button  Background="#3766a0" Width="220" Height="60" BorderThickness="2" Content="Qeydiyyatdan Kec" Foreground="#fff"/>
+                    <Button Style="{StaticResource qeydiyyat}"   Width="200" Height="50" BorderThickness="2" Content="Qeydiyyatdan Kec" Foreground="#fff"/>
 
                 </StackPanel>
             </ScrollViewer>
