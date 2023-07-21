@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hospital.Pasient
+namespace Hospital2.Models
 {
-    internal class Pasientler
+    public class Pasient
     {
     }
 }
