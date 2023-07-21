@@ -7,20 +7,28 @@ using System.Threading.Tasks;
 using System.Xml.Linq;
 using System.Windows;
 using System.ComponentModel;
+using HOSBITAL.Pages;
+using System.Windows.Controls;
+using System.Windows.Media;
+using Hospital.Pages;
 
 namespace HOSBITAL.ViewModel
 {
     public class ClassQeydiyyat:INotifyPropertyChanged
     {
 		private string ?_Name;
-
+        
 		public string Name
 		{
 			get { return _Name!; }
 			set {
-                if (value!.Length < 3 || !Regex.Match(value!, @"\b[A-Z][a-z]+\b").Success)
+                if (string.IsNullOrEmpty(value) || value.Length<3 || !Regex.Match(value!, @"\b[A-Z][a-z]+\b").Success)
                 {
-                    MessageBox.Show("Invalid Name!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    Qeydiyyat.qeydiyyat_pasient!.txtBox.BorderBrush = new SolidColorBrush(Colors.Red);
+                }
+                else
+                {
+                    Qeydiyyat.qeydiyyat_pasient!.txtBox.BorderBrush=new SolidColorBrush(Colors.Green);
                 }
                 _Name = value;
                 OnPropertyChanged(nameof(Name));
@@ -33,7 +41,7 @@ namespace HOSBITAL.ViewModel
             set
             {
                 if (!Regex.Match(value!, @"\b[A-Z][a-z]+\b").Success)
-                {
+                { 
                     MessageBox.Show("Invalid Surname!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 }
                 _Surname = value;

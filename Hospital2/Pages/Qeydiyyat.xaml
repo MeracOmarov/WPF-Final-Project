@@ -13,7 +13,7 @@
             <ScrollViewer>
                 <StackPanel   Background="#C8d3e0" ScrollViewer.VerticalScrollBarVisibility="Visible" >
                     <Label Content="Adiniz" Style="{StaticResource Style}"/>
-                    <TextBox Text="{Binding Name}" Style="{StaticResource StyleT1}"/>
+                    <TextBox x:Name="txtBox" Text="{Binding Name}" Style="{StaticResource StyleT1}"/>
                     <Label Content="Soyadiniz" Style="{StaticResource Style}"/>
                     <TextBox Text="{Binding Surname}" Style="{StaticResource StyleT1}"/>
                     <Label Content="Ata adi" Style="{StaticResource Style}"/>

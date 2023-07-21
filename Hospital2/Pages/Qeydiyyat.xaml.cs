@@ -19,10 +19,13 @@ namespace Hospital.Pages
     
     public partial class Qeydiyyat : Page
     {
+        public static Qeydiyyat? qeydiyyat_pasient;
+        public ClassQeydiyyat pasient_qeydiyyat = new();
         public Qeydiyyat()
         {
             InitializeComponent();
             DataContext = new ClassQeydiyyat();
+            qeydiyyat_pasient = this;
         }
     }
 }
