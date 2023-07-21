@@ -13,15 +13,15 @@
             <ScrollViewer>
                 <StackPanel   Background="#C8d3e0" ScrollViewer.VerticalScrollBarVisibility="Visible" >
                     <Label Content="Adiniz" Style="{StaticResource Style}"/>
-                    <TextBox x:Name="nameTxtBox" Text="{Binding Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource StyleT1}"/>
+                    <TextBox x:Name="nameTxtBox" Text="{Binding pasient.Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource StyleT1}"/>
                     <Label Content="Soyadiniz" Style="{StaticResource Style}"/>
-                    <TextBox x:Name="surnameTxtBox" Text="{Binding Surname, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource StyleT1}"/>
+                    <TextBox x:Name="surnameTxtBox" Text="{Binding pasient.Surname, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource StyleT1}"/>
                     <Label Content="Ata adi" Style="{StaticResource Style}"/>
-                    <TextBox x:Name="fathersnameTxtBox" Text="{Binding fathersName,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource StyleT1}"/>
+                    <TextBox x:Name="fathersnameTxtBox" Text="{Binding pasient.fathersName,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource StyleT1}"/>
                     <Label Content="Doğum darixi" Style="{StaticResource Style}"/>
-                    <TextBox x:Name="birthdayTxtBox" Text="{Binding birthday,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource StyleT1}"/>
+                    <TextBox x:Name="birthdayTxtBox" Text="{Binding pasient.birthday,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource StyleT1}"/>
                     <Label Content="Səxsiyyətin seriası" Style="{StaticResource Style}"/>
-                    <TextBox x:Name="seriyaIdTxtBox" Text="{Binding seriyaID,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource StyleT1}"/>
+                    <TextBox x:Name="seriyaIdTxtBox" Text="{Binding pasient.seriyaID,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource StyleT1}"/>
                     <Label Content="Cinsiniz" Style="{StaticResource Style}"/>
                     <StackPanel Orientation="Horizontal">
                         <Label Content="Kişi" Style="{StaticResource Style}"/>
@@ -30,15 +30,15 @@
                         <RadioButton x:Name="femaleradiobtn" Margin="0 13 0 0" Command="{Binding female}"/>
                     </StackPanel>
                     <Label Content="Əlaqə nömrəsi" Style="{StaticResource Style}"/>
-                    <TextBox x:Name="numberTxtBox" Text="{Binding Number,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource StyleT1}"/>
+                    <TextBox x:Name="numberTxtBox" Text="{Binding pasient.Number,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource StyleT1}"/>
                     <Label Content="Mail" Style="{StaticResource Style}"/>
-                    <TextBox x:Name="mailTxtBox" Text="{Binding Mail,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource StyleT1}"/>
+                    <TextBox x:Name="mailTxtBox" Text="{Binding pasient.Mail,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource StyleT1}"/>
                     <Label Content="Parol təyin edin" Style="{StaticResource Style}"/>
-                    <TextBox x:Name="passwordTxtBox" Text="{Binding Password,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource StyleT1}"/>
+                    <TextBox x:Name="passwordTxtBox" Text="{Binding pasient.Password,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource StyleT1}"/>
                     <Label Content="Parol yeniden daxil edin" Style="{StaticResource Style}"/>
-                    <TextBox x:Name="againpasswordTxtBox" Text="{Binding againPassword,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource StyleT1}"/>
+                    <TextBox x:Name="againpasswordTxtBox" Text="{Binding pasient.againPassword,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource StyleT1}"/>
 
-                    <Button Style="{StaticResource qeydiyyat}"   Width="200" Height="50" BorderThickness="2" Content="Qeydiyyatdan Kec" Foreground="#fff" Command="{Binding QeydiyyatCommand}"/>
+                    <Button  Style="{StaticResource qeydiyyat}"   Width="200" Height="50" BorderThickness="2" Content="Qeydiyyatdan Kec" Foreground="#fff" Command="{Binding QeydiyyatCommand}"/>
 
                 </StackPanel>
             </ScrollViewer>

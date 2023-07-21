@@ -19,7 +19,7 @@ namespace Hospital.Pages
     
     public partial class Qeydiyyat : Page
     {
-        public static Qeydiyyat? qeydiyyat_pasient;
+        public static Qeydiyyat? qeydiyyat_pasient=new();
         public ClassQeydiyyat pasient_qeydiyyat = new();
         public Qeydiyyat()
         {

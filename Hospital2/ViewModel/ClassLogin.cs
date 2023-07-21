@@ -12,6 +12,8 @@ using Hospital.Pages;
 using System.ComponentModel;
 using System.Windows.Controls;
 using Hospital.Pasient;
+using Hospital2.Models;
+using Hospital.ViewModel;
 
 namespace HOSBITAL.ViewModel
 {
@@ -51,18 +53,24 @@ namespace HOSBITAL.ViewModel
             Pasientsexsikobinet pasientsexsikobinet = new Pasientsexsikobinet();
             pasientsexsikobinet.ShowDialog();
         }
+        Button button=new Button();
         public bool IsPasient(object? obj)
         {
-            if (PasientlerDB.pasient.Contains(seriyaID) && password == PasientlerDB.pasient[PasientlerDB.pasient.IndexOf(seriyaID)+1])
+            foreach(var pasient in PasientlerDB.pasients!)
             {
-                return true;
+                if (pasient.seriyaID==seriyaID && pasient.Password==password)
+                {
+                    button.IsEnabled = true;
+                    return true;
+                }
             }
-            else
-            {
-                return false;
-            }
+            return false;
         }
-        public ClassLogin() {
+
+        public ClassLogin(Button button) {
+            this.button = button;
+            this.button.IsEnabled = false;
+
             daxilOlCommand = new(DaxilOl,IsPasient);
             qeydiyyatCommand = new(QeydiyyatButton);
         

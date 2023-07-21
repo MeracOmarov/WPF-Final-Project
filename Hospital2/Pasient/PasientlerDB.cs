@@ -1,9 +1,11 @@
 ﻿using HOSBITAL.ViewModel;
 using Hospital.ViewModel;
+using Hospital2.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,27 +13,16 @@ namespace Hospital.Pasient
 {
     public class PasientlerDB
     {
-        public static List<string> pasient = new List<string>() { "Merac", "2000", "Ibo", "2003" };
 
-        // pasinet databazaya data add ededn funksiya
-        public static void Add_data_toBasa(string name, string sername, string fathername, string birthday, string id, string cins, string phonenumber, string mail, string parol)
+        public static void Add_data_toBasa(Pasients pasients)
         {
-
-            pasient.Add(id);
-            pasient.Add(parol);
-            pasient.Add(fathername);
-            pasient.Add(birthday);
-            pasient.Add(name);
-            pasient.Add(cins);
-            pasient.Add(phonenumber);
-            pasient.Add(mail);
-            pasient.Add(sername);
-
+            PasientlerDB.pasients!.Add(pasients);
+            ClassQeydiyyat.WriteData(PasientlerDB.pasients, "pasients");
         }
-        public static ObservableCollection<ClassQeydiyyat>? pasients { get; set; } = new() { };
+        public static ObservableCollection<Pasients>? pasients { get; set; } = new() { };
         static PasientlerDB()
         {
-            pasients = ClassQeydiyyat.ReadData<ObservableCollection<ClassQeydiyyat>>("pasients");
+            pasients = ClassQeydiyyat.ReadData<ObservableCollection<Pasients>>("pasients");
         }
     }
 }

@@ -17,7 +17,7 @@
                     <Label Content="Parolu daxil edin" FontWeight="Bold" FontSize="20"/>
                     <TextBox Text="{Binding password, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" FontSize="20"/>
                     <Button Content="Qeydiyyatdan keç" Margin="0 10 0 0" Command="{Binding qeydiyyatCommand}"/>
-                    <Button Content="Daxil ol" Margin="0 10 0 0" Command="{Binding daxilOlCommand}"/>
+                    <Button x:Name="daxilOl" Content="Daxil ol" Margin="0 10 0 0" Command="{Binding daxilOlCommand}"/>
                 </StackPanel>
             </Border>
         </Grid>

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HOSBITAL.ViewModel
 {
-    class ClassQebul
+    public class ClassQebul
     {
     }
 }

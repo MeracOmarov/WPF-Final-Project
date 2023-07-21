@@ -22,7 +22,7 @@ namespace HOSBITAL.Pages
         public Login()
         {
             InitializeComponent();
-            DataContext = new ClassLogin();
+            DataContext = new ClassLogin(daxilOl);
         }
     }
 }
