@@ -25,19 +25,24 @@
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,0">
                 <StackPanel>
                     <Border Style="{StaticResource borders}">
-                        <StackPanel Orientation="Vertical">
-                            <Image Source="/Images/department.png" Margin="0,20,0,0" Width="40" VerticalAlignment="Top"/>
-                            <TextBlock Text="Xeste Muracieti" FontWeight="Bold" Foreground="#afafaf"  HorizontalAlignment="Center" Margin="0,30,0,0"/>
-                        </StackPanel>
+                        <Button Style="{StaticResource buttons}" Command="{Binding qebulCommand}">
+                            <StackPanel Orientation="Vertical">
+                                <Image Source="/Images/department.png" Margin="0,20,0,0" Width="40" VerticalAlignment="Top"/>
+                                <TextBlock Text="Xeste Muracieti" FontWeight="Bold" Foreground="#afafaf"  HorizontalAlignment="Center" Margin="0,30,0,0"/>
+                            </StackPanel>
+                        </Button>
                     </Border>
                 </StackPanel>
 
                 <StackPanel>
                     <Border Style="{StaticResource borders}" Margin="50,0,0,0">
-                        <StackPanel Orientation="Vertical">
-                            <Image Source="/Images/patients.png" Margin="0,20,0,0" Width="40" VerticalAlignment="Top"/>
-                            <TextBlock Text="Xesteler" FontWeight="Bold" Foreground="#afafaf"  HorizontalAlignment="Center" Margin="0,30,0,0"/>
-                        </StackPanel>
+                        <Button Style="{StaticResource buttons}"
+                                Command="{Binding onlineNovbeCommand}">
+                            <StackPanel Orientation="Vertical">
+                                <Image Source="/Images/patients.png" Margin="0,20,0,0" Width="40" VerticalAlignment="Top"/>
+                                <TextBlock Text="Xesteler" FontWeight="Bold" Foreground="#afafaf"  HorizontalAlignment="Center" Margin="0,30,0,0"/>
+                            </StackPanel>
+                        </Button>
                     </Border>
                 </StackPanel>
 
@@ -45,19 +50,23 @@
             <StackPanel VerticalAlignment="Center" Orientation="Horizontal" Margin="0,60,0,0" HorizontalAlignment="Center">
                 <StackPanel>
                     <Border Style="{StaticResource borders}">
-                        <StackPanel Orientation="Vertical">
-                            <Image Source="/Images/measures.png" Margin="0,20,0,0" Width="40" VerticalAlignment="Top"/>
-                            <TextBlock Text="Tedbirler" FontWeight="Bold" Foreground="#afafaf"  HorizontalAlignment="Center" Margin="0,30,0,0"/>
-                        </StackPanel>
+                        <Button Style="{StaticResource buttons}" Command="{Binding sualCavabCommand}">
+                            <StackPanel Orientation="Vertical">
+                                <Image Source="/Images/measures.png" Margin="0,20,0,0" Width="40" VerticalAlignment="Top"/>
+                                <TextBlock Text="Tedbirler" FontWeight="Bold" Foreground="#afafaf"  HorizontalAlignment="Center" Margin="0,30,0,0"/>
+                            </StackPanel>
+                        </Button>
                     </Border>
                 </StackPanel>
 
                 <StackPanel>
                     <Border Style="{StaticResource borders}" Margin="50,0,0,0">
-                        <StackPanel Orientation="Vertical">
-                            <Image Source="/Images/operate.png" Margin="0,20,0,0" Width="40" VerticalAlignment="Top"/>
-                            <TextBlock  TextWrapping="Wrap" Text="Emeliyyatlar ve Muaineler" FontWeight="Bold" Foreground="#afafaf"  HorizontalAlignment="Center" Margin="0,30,0,0"/>
-                        </StackPanel>
+                        <Button Style="{StaticResource buttons}" Command="{Binding laboratoriyaCommand}">
+                            <StackPanel Orientation="Vertical">
+                                <Image Source="/Images/operate.png" Margin="0,20,0,0" Width="40" VerticalAlignment="Top"/>
+                                <TextBlock  TextWrapping="Wrap" Text="Muayineler ve Emeliyyatlar" FontWeight="Bold" Foreground="#afafaf"  HorizontalAlignment="Center" Margin="0,30,0,0"/>
+                            </StackPanel>
+                        </Button>
                     </Border>
                 </StackPanel>
 
