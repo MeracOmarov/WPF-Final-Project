@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hospital.Hospital
 {
-    internal class xestexanalar
+    public class xestexanalar
     {
     }
 }

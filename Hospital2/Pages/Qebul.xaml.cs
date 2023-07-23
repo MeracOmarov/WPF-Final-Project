@@ -23,5 +23,16 @@ namespace HOSBITAL.Pages
             InitializeComponent();
             DataContext = new ClassQebul();
         }
+
+        private void RadioButton_Click(object sender, RoutedEventArgs e)
+        {
+            qebultxtBox.Visibility = Visibility.Collapsed;
+        }
+
+        private void RadioButton_Click_1(object sender, RoutedEventArgs e)
+        {
+            qebultxtBox.Visibility = Visibility.Visible;
+
+        }
     }
 }
