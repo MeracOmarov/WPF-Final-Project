@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "xN+HTVkLqJq/L8LgYu+qDvw7TMDylMkR/1WHK03plJClNMxlhcoDZZz+WIEpV2kgu/PROA6WGCZUCqDM2OV0Tg==",
+  "dgSpecHash": "9zI6YD0Q9yJDtGapz6Yrc2sx6iuOhw6S2qrfzL+UW3sxN1jtuETNkuCA7+NUY43NXZD0DJkWpBrVKAKDq5hz9A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asado_ho45\\Source\\Repos\\Hospital-WPF1\\Hospital2\\Hospital2.csproj",
+  "projectFilePath": "C:\\Users\\asado_ho45\\Source\\Repos\\Hospital-WPF2\\Hospital2\\Hospital2.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Asado_ho45\\.nuget\\packages\\fontawesome.wpf\\4.7.0.9\\fontawesome.wpf.4.7.0.9.nupkg.sha512"
+    "C:\\Users\\asado_ho45\\.nuget\\packages\\fontawesome.wpf\\4.7.0.9\\fontawesome.wpf.4.7.0.9.nupkg.sha512"
   ],
   "logs": [
     {

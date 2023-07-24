@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HOSBITAL.ViewModel
+namespace Hospital2.ViewModel
 {
-    public class ClassMuracietler
+    internal class ClassTedbirler
     {
     }
 }
