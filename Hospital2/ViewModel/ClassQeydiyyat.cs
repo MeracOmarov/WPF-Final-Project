@@ -61,7 +61,7 @@ namespace HOSBITAL.ViewModel
             if (pasient.Gender != null)
             {
                 check = true;
-                Qeydiyyat.qeydiyyat_pasient.maleradiobtn.ClearValue(Border.BorderBrushProperty);
+                Qeydiyyat.qeydiyyat_pasient!.maleradiobtn.ClearValue(Border.BorderBrushProperty);
                 Qeydiyyat.qeydiyyat_pasient.femaleradiobtn.ClearValue(Border.BorderBrushProperty);
             }
            
@@ -86,7 +86,7 @@ namespace HOSBITAL.ViewModel
             var greenBrush = new SolidColorBrush(Colors.Green);
 
             TextBox[] textBoxes = {
-    Qeydiyyat.qeydiyyat_pasient.nameTxtBox,
+    Qeydiyyat.qeydiyyat_pasient!.nameTxtBox,
     Qeydiyyat.qeydiyyat_pasient.surnameTxtBox,
     Qeydiyyat.qeydiyyat_pasient.fathersnameTxtBox,
     Qeydiyyat.qeydiyyat_pasient.seriyaIdTxtBox,

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hospital.Hospital
 {
-    internal class Tarix
+    public class Tarix
     {
     }
 }

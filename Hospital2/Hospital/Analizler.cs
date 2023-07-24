@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Hospital.Hospital
 {
-    internal class Analizler
+    public class Analizler
     {
+
     }
 }

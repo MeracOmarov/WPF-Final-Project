@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hospital.ViewModel
 {
-    internal class HekimClass
+    public class HekimClass
     {
     }
 }

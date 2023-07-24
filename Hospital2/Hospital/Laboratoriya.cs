@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hospital.Hospital
 {
-    internal class Laboratoriya
+    public class Laboratoriya
     {
     }
 }
