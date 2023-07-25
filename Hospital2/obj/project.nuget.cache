@@ -1,17 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "9zI6YD0Q9yJDtGapz6Yrc2sx6iuOhw6S2qrfzL+UW3sxN1jtuETNkuCA7+NUY43NXZD0DJkWpBrVKAKDq5hz9A==",
+  "dgSpecHash": "aeDLJPqkiVHE3u+qY3LqNnjBBTwT23s+RnjGfbkf3/5rAE5dq//bGJwdfcmry51nz7zC+pH0EqadfM9ixNmORA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asado_ho45\\Source\\Repos\\Hospital-WPF2\\Hospital2\\Hospital2.csproj",
+  "projectFilePath": "C:\\Users\\Asus\\source\\repos\\Hospital-WPF7\\Hospital2\\Hospital2.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\asado_ho45\\.nuget\\packages\\fontawesome.wpf\\4.7.0.9\\fontawesome.wpf.4.7.0.9.nupkg.sha512"
+    "C:\\Users\\Asus\\.nuget\\packages\\fontawesome.wpf\\4.7.0.9\\fontawesome.wpf.4.7.0.9.nupkg.sha512"
   ],
   "logs": [
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'FontAwesome.WPF 4.7.0.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "message": "Пакет \"FontAwesome.WPF 4.7.0.9\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net6.0-windows7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
       "libraryId": "FontAwesome.WPF",
       "targetGraphs": [
         "net6.0-windows7.0"

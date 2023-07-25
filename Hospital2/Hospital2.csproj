@@ -13,6 +13,7 @@
     <None Remove="Images\measures.png" />
     <None Remove="Images\operate.png" />
     <None Remove="Images\patients.png" />
+    <None Remove="Images\profile.png" />
     <None Remove="Images\question.png" />
     <None Remove="Images\queue.png" />
     <None Remove="Images\registration.png" />
@@ -32,6 +33,7 @@
     <Resource Include="Images\measures.png" />
     <Resource Include="Images\operate.png" />
     <Resource Include="Images\patients.png" />
+    <Resource Include="Images\profile.png" />
     <Resource Include="Images\question.png" />
     <Resource Include="Images\queue.png" />
     <Resource Include="Images\registration.png" />

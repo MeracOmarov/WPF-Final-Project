@@ -1,5 +1,6 @@
 ﻿using HOSBITAL.ViewModel;
 using Hospital.Pasient;
+using Hospital2.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,8 +14,9 @@ namespace Hospital2.Models
     {
 
         public List<ClassMuracietler>? muracietler { get; set; }
-        public List<PasientlerDB> ?pasients { get; set; }
-
+        public List<PasientlerDB>? pasients { get; set; }
+        public List<ClassTedbirler>? tedbirlers { get; set; }
+        public List<Class_Muaine_Emeliyyatlar>? muaine_Emeliyyatlars { get; set; }
 
 
         public event PropertyChangedEventHandler? PropertyChanged;

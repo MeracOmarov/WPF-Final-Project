@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hospital2.ViewModel
 {
-    internal class ClassTedbirler
+    public class ClassTedbirler
     {
     }
 }

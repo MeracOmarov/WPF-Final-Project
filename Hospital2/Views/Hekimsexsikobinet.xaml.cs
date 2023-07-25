@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Hospital.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,9 +18,12 @@ namespace Hospital.Views
     
     public partial class Hekimsexsikobinet : Window
     {
+        public static Hekimsexsikobinet ?hekimsexsikobinet;
         public Hekimsexsikobinet()
         {
             InitializeComponent();
+            DataContext = new HekimClass();
+            hekimsexsikobinet=this;
         }
     }
 }

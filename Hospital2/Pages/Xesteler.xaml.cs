@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using HOSBITAL.ViewModel;
+using Hospital2.ViewModel;
 
 namespace Hospital.Pages
 {
@@ -22,7 +23,7 @@ namespace Hospital.Pages
         public Xesteler()
         {
             InitializeComponent();
-            DataContext = new ClassXesteler();
+            DataContext = new XestelerViewModel();
         }
     }
 }
