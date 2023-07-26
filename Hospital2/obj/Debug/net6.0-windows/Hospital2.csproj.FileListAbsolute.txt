@@ -569,3 +569,7 @@ C:\Users\Asus\Source\Repos\Hospital-WPF7\Hospital2\obj\Debug\net6.0-windows\Hosp
 C:\Users\Asus\Source\Repos\Hospital-WPF7\Hospital2\obj\Debug\net6.0-windows\Hospital2.genruntimeconfig.cache
 C:\Users\Asus\Source\Repos\Hospital-WPF7\Hospital2\obj\Debug\net6.0-windows\ref\Hospital2.dll
 C:\Users\Asus\source\repos\Hospital-WPF7\Hospital2\obj\Debug\net6.0-windows\Dictionary\XestelerRD.baml
+C:\Users\Asado_ho45\Source\Repos\Hospital-WPF1\Hospital2\obj\Debug\net6.0-windows\Dictionary\XestelerRD.baml
+C:\Users\Asado_ho45\Source\Repos\Hospital-WPF1\Hospital2\bin\Debug\net6.0-windows\Microsoft.Maps.MapControl.WPF.dll
+C:\Users\Asado_ho45\Source\Repos\Hospital-WPF1\Hospital2\obj\Debug\net6.0-windows\Pages\EnYaxinXestexana.g.cs
+C:\Users\Asado_ho45\Source\Repos\Hospital-WPF1\Hospital2\obj\Debug\net6.0-windows\Pages\EnYaxinXestexana.baml

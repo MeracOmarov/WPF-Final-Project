@@ -7,7 +7,15 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Pages\EnYaxinXestexana.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <Page Update="Dictionary\XestelerRD.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\EnYaxinXestexana.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

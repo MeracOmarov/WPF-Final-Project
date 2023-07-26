@@ -50,7 +50,7 @@ namespace HOSBITAL.ViewModel
         public void DaxilOl(object? param)
         {
 
-            Pasientsexsikobinet pasientsexsikobinet = new Pasientsexsikobinet();
+            Pasientsexsikobinet pasientsexsikobinet = new Pasientsexsikobinet(); 
             pasientsexsikobinet.ShowDialog();
         }
         Button button=new Button();

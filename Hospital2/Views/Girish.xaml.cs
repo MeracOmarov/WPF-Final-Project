@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using HOSBITAL.ViewModel;
+using Microsoft.Maps.MapControl.WPF;
 
 namespace HOSBITAL.Views
 {
@@ -22,6 +23,8 @@ namespace HOSBITAL.Views
         {
             InitializeComponent();
             DataContext = new ClassGiris();
+           
+
             girish = this;
         }
 
