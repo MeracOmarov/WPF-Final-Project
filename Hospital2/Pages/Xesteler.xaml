@@ -25,35 +25,35 @@
                                     <fa:ImageAwesome Icon="User" Width="30"  Foreground="#ffffff" />
                                     <Border CornerRadius="50" Background="DarkGray"/>
                                     <StackPanel Orientation="Horizontal" Margin="0,50,0,0">
-                                        <TextBlock Text="Ad:" Foreground="#fff" FontFamily="Comic Sans MS"/>
+                                        <TextBlock Text="Ad:" FontWeight="Bold" Foreground="#fff" FontFamily="/Fonts/#Sulphur Point"/>
                                         <TextBlock Text="{Binding Name}" Foreground="#fff" Margin="2,0,0,0"
-                                                   FontFamily="Comic Sans MS"/>
+                                                   FontFamily="/Fonts/#Sulphur Point" FontWeight="Bold"/>
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal">
-                                        <TextBlock Text="Soyad:" Foreground="#fff" FontFamily="Comic Sans MS"/>
-                                        <TextBlock Text="{Binding Surname}" FontFamily="Comic Sans MS" Foreground="#fff" Margin="2,0,0,0"/>
+                                        <TextBlock Text="Soyad:" FontWeight="Bold" Foreground="#fff" FontFamily="/Fonts/#Sulphur Point"/>
+                                        <TextBlock Text="{Binding Surname}" FontWeight="Bold" FontFamily="/Fonts/#Sulphur Point" Foreground="#fff" Margin="2,0,0,0"/>
                                     </StackPanel>
                                 </StackPanel>
                                 <StackPanel Orientation="Vertical">
                                     <StackPanel Orientation="Horizontal">
-                                        <TextBlock Text="Anadan oldugu il:" Foreground="#fff" FontFamily="Comic Sans MS"/>
-                                        <TextBlock Text="{Binding birthday}" Foreground="#fff" FontFamily="Comic Sans MS" Margin="2,0,0,0"/>
+                                        <TextBlock Text="Anadan oldugu il:" FontWeight="Bold" Foreground="#fff" FontFamily="/Fonts/#Sulphur Point"/>
+                                        <TextBlock Text="{Binding birthday}" FontWeight="Bold" Foreground="#fff" FontFamily="/Fonts/#Sulphur Point" Margin="2,0,0,0"/>
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal">
-                                        <TextBlock Text="ID:" Foreground="#fff" FontFamily="Comic Sans MS"/>
-                                        <TextBlock Text="{Binding seriyaID}" Foreground="#fff" FontFamily="Comic Sans MS" Margin="2,0,0,0"/>
+                                        <TextBlock Text="ID:"  Foreground="#fff" FontWeight="Bold"  FontFamily="/Fonts/#Sulphur Point"/>
+                                        <TextBlock Text="{Binding seriyaID}" FontWeight="Bold" Foreground="#fff" FontFamily="/Fonts/#Sulphur Point" Margin="2,0,0,0"/>
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal">
-                                        <TextBlock Text="Cins:" Foreground="#fff" FontFamily="Comic Sans MS"/>
-                                        <TextBlock Text="{Binding Gender}" Foreground="#fff" FontFamily="Comic Sans MS" Margin="2,0,0,0"/>
+                                        <TextBlock Text="Cins:" FontWeight="Bold" Foreground="#fff" FontFamily="/Fonts/#Sulphur Point"/>
+                                        <TextBlock Text="{Binding Gender}" FontWeight="Bold" Foreground="#fff" FontFamily="/Fonts/#Sulphur Point" Margin="2,0,0,0"/>
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal">
-                                        <TextBlock Text="Elaqe Nomresi:" Foreground="#fff" FontFamily="Comic Sans MS"/>
-                                        <TextBlock Text="{Binding Number}" Foreground="#fff" FontFamily="Comic Sans MS" Margin="2,0,0,0"/>
+                                        <TextBlock Text="Elaqe Nomresi:" FontWeight="Bold" Foreground="#fff" FontFamily="/Fonts/#Sulphur Point"/>
+                                        <TextBlock Text="{Binding Number}" FontWeight="Bold" Foreground="#fff" FontFamily="/Fonts/#Sulphur Point" Margin="2,0,0,0"/>
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal">
-                                        <TextBlock Text="E-Mail:" Foreground="#fff" FontFamily="Comic Sans MS"/>
-                                        <TextBlock Text="{Binding Mail}" Foreground="#fff" FontFamily="Comic Sans MS" Margin="2,0,0,0"/>
+                                        <TextBlock Text="E-Mail:" FontWeight="Bold" Foreground="#fff" FontFamily="/Fonts/#Sulphur Point"/>
+                                        <TextBlock Text="{Binding Mail}" FontWeight="Bold" Foreground="#fff" FontFamily="/Fonts/#Sulphur Point" Margin="2,0,0,0"/>
                                     </StackPanel>
                                 </StackPanel>
                             </StackPanel>

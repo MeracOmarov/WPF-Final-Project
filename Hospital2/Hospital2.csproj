@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Fonts\OFL.txt" />
+    <None Remove="Fonts\SulphurPoint-Bold.otf" />
+    <None Remove="Fonts\SulphurPoint-Light.otf" />
+    <None Remove="Fonts\SulphurPoint-Regular.otf" />
     <None Remove="Images\department.png" />
     <None Remove="Images\laboratory.png" />
     <None Remove="Images\measures.png" />
@@ -28,6 +32,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Fonts\OFL.txt" />
+    <Resource Include="Fonts\SulphurPoint-Bold.otf" />
+    <Resource Include="Fonts\SulphurPoint-Light.otf" />
+    <Resource Include="Fonts\SulphurPoint-Regular.otf" />
     <Resource Include="Images\department.png" />
     <Resource Include="Images\laboratory.png" />
     <Resource Include="Images\measures.png" />
