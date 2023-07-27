@@ -15,6 +15,7 @@
     <None Remove="Images\5noxestexana.jpg" />
     <None Remove="Images\department.png" />
     <None Remove="Images\EgeHospital.jpg" />
+    <None Remove="Images\ege_hospital.jpg" />
     <None Remove="Images\HBGuven.jpg" />
     <None Remove="Images\IstanbulNS.jpg" />
     <None Remove="Images\laboratory.png" />
@@ -27,6 +28,7 @@
     <None Remove="Images\question.png" />
     <None Remove="Images\queue.png" />
     <None Remove="Images\registration.png" />
+    <None Remove="video.mp4" />
   </ItemGroup>
 
   <ItemGroup>
@@ -46,6 +48,7 @@
     <Resource Include="Images\5noxestexana.jpg" />
     <Resource Include="Images\department.png" />
     <Resource Include="Images\EgeHospital.jpg" />
+    <Resource Include="Images\ege_hospital.jpg" />
     <Resource Include="Images\HBGuven.jpg" />
     <Resource Include="Images\IstanbulNS.jpg" />
     <Resource Include="Images\laboratory.png" />
@@ -58,6 +61,7 @@
     <Resource Include="Images\question.png" />
     <Resource Include="Images\queue.png" />
     <Resource Include="Images\registration.png" />
+    <Resource Include="video.mp4" />
   </ItemGroup>
 
 </Project>

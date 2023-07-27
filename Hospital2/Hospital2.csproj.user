@@ -10,6 +10,9 @@
     <Compile Update="Pages\EnYaxinXestexana.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\Haqqimizda.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Dictionary\EnYaxinXestexanaRD.xaml">
@@ -19,6 +22,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Pages\EnYaxinXestexana.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Haqqimizda.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
