@@ -16,6 +16,7 @@
                 <ResourceDictionary Source="Dictionary/PasientSexsiKabinetRD.xaml"/>
                 <ResourceDictionary Source="Dictionary/SualCavabRD.xaml"/>
                 <ResourceDictionary Source="Dictionary/XestelerRD.xaml"/>
+                <ResourceDictionary Source="Dictionary/EnYaxinXestexanaRD.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>
