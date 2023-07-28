@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "r9HzOVDwxGl+MoBHVd3JIHeMqXXoN8puCR7gLsxL7fLv6ZxgT5abJwWIM6tHeHw9+wgtPKSEiMnKY1H3aYgL7g==",
+  "dgSpecHash": "pIZmq6KSIeAd6lHD0PW43qFXuOSo0gIkSqHVZxMzzwMhH/uUtdgPjOzgXxoCBGmyXvQh1bJrZisF5ncS84Bxhw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Asus\\Desktop\\Hospital-WPF\\Hospital2\\Hospital2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\fontawesome.wpf\\4.7.0.9\\fontawesome.wpf.4.7.0.9.nupkg.sha512",
-    "C:\\Users\\Asus\\.nuget\\packages\\microsoft.maps.mapcontrol.wpf\\1.0.0.3\\microsoft.maps.mapcontrol.wpf.1.0.0.3.nupkg.sha512"
+    "C:\\Users\\Asus\\.nuget\\packages\\microsoft.maps.mapcontrol.wpf\\1.0.0.3\\microsoft.maps.mapcontrol.wpf.1.0.0.3.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\microsoft.web.webview2\\1.0.1901.177\\microsoft.web.webview2.1.0.1901.177.nupkg.sha512"
   ],
   "logs": [
     {

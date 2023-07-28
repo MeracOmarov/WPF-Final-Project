@@ -22,8 +22,7 @@ namespace Hospital2.Views
             InitializeComponent();
 
         }
-      
-
+     
        
     }
 }

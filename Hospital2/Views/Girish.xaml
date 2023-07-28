@@ -15,7 +15,7 @@
         </Grid.RowDefinitions>
         <Border Background="#6b4bb2"/>
         <Border Grid.Row="2" Background="#6b4bb2"/>
-        <Label Content="GRAND HOSPITAL" Margin="20,0,0,0" Foreground="White" FontWeight="Bold" FontSize="50" VerticalAlignment="Center"/>
+        <Label Content="EGE HOSPITAL" Margin="20,0,0,0" Foreground="White" FontWeight="Bold" FontSize="50" VerticalAlignment="Center"/>
         <fa:ImageAwesome Icon="User" Width="60" HorizontalAlignment="Right" Margin="0 0 220 0" Foreground="#ffffff" />
         <StackPanel Width="200" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0 0 20 0" >
             <Label FontFamily="Cambria" Content="Şəxsi Kabinet" Foreground="#ffffff"  FontSize="20" HorizontalAlignment="Center"/>
