@@ -637,3 +637,5 @@ C:\Users\Asus\Desktop\Hospital-WPF\Hospital2\obj\Debug\net6.0-windows\ref\Hospit
 C:\Users\Asus\Desktop\Hospital-WPF\Hospital2\obj\Debug\net6.0-windows\Dictionary\EnYaxinXestexanaRD.baml
 C:\Users\Asus\Desktop\Hospital-WPF\Hospital2\obj\Debug\net6.0-windows\Views\Haqqimizda.g.cs
 C:\Users\Asus\Desktop\Hospital-WPF\Hospital2\obj\Debug\net6.0-windows\Views\Haqqimizda.baml
+C:\Users\Asus\Desktop\Hospital-WPF\Hospital2\bin\Debug\net6.0-windows\video.mp4
+C:\Users\Asus\Desktop\Hospital-WPF\Hospital2\obj\Debug\net6.0-windows\Hospital2_Content.g.cs

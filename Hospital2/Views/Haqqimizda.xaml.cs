@@ -22,10 +22,7 @@ namespace Hospital2.Views
             InitializeComponent();
 
         }
-        private void MediaElement_MediaEnded(object sender, RoutedEventArgs e)
-        {
-            mediaElement.Position = TimeSpan.Zero;
-        }
+      
 
        
     }

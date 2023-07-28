@@ -61,7 +61,9 @@
     <Resource Include="Images\question.png" />
     <Resource Include="Images\queue.png" />
     <Resource Include="Images\registration.png" />
-    <Resource Include="video.mp4" />
+    <Content Include="video.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>
