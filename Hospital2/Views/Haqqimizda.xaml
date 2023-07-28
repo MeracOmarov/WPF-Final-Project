@@ -43,20 +43,22 @@
 
 Düzgün müayinə və müalicə üçün ölkə xaricinə çıxmağa ehtiyac yoxdur. Ege Hospital uzaq yolları yaxın edir!
 
-Sağlamlığınız Sağlamlığımızdır!" Grid.Row="1" TextWrapping="Wrap" Width="350"
-                   HorizontalAlignment="Left" Margin="20,20,0,0"/>
+Sağlamlığınız Sağlamlığımızdır!" Grid.Row="1" TextWrapping="Wrap" Width="600"
+                   HorizontalAlignment="Left" Margin="20,20,0,0" FontFamily="/Fonts/#Sulphur Point"/>
         <StackPanel Orientation="Vertical" Grid.Row="1">
+
             <MediaElement
+                    
                 x:Name="mediaElement"
                       Grid.Row="1"
                       HorizontalAlignment="Right"
-                      Width="350" Height="200"
+                      Width="460" Height="280"
                       Margin="0,0,20,0"
                       LoadedBehavior="Play"
                       Source="C:\Users\Asus\Downloads\video.mp4"
-                      MediaEnded="MediaElement_MediaEnded"/>
+                      MediaEnded="MediaElement_MediaEnded"
+                IsMuted="True"/>
 
-            
         </StackPanel>
     </Grid>
 </Window>
