@@ -25,7 +25,8 @@
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,0">
                 <StackPanel>
                     <Border Style="{StaticResource borders}">
-                        <Button Style="{StaticResource buttons}">
+                        <Button Style="{StaticResource buttons}" 
+                                Command="{Binding xesteMuracietiCommand}">
                             <StackPanel Orientation="Vertical">
                                 <Image Source="/Images/department.png" Margin="0,20,0,0" Width="40" VerticalAlignment="Top"/>
                                 <TextBlock Text="Xeste Muracieti" FontWeight="Bold" Foreground="#afafaf"  HorizontalAlignment="Center" Margin="0,30,0,0"/>

@@ -43,6 +43,6 @@
                 </StackPanel>
             </ScrollViewer>
         </Border>
-        <Frame x:Name="MainFrame" NavigationUIVisibility="Visible" Grid.Row="1"/>
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Visible" />
     </Grid>
 </Page>

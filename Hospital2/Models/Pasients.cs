@@ -140,7 +140,7 @@ namespace Hospital2.Models
                 OnPropertyChanged(nameof(Number));
             }
         }
-        private string _Mail;
+        private string? _Mail;
 
         public string Mail
         {

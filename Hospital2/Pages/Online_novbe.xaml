@@ -9,18 +9,37 @@
       Title="Online_novbe">
 
     <Grid>
-        <Border BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Center" Width="400" Height="700" Margin="0,10,0,0">
+        <Border BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Center" Width="400" Height="300" Margin="0,10,0,0">
             <StackPanel  Background="#C8d3e0" >
                 <Label Content="Analiz növü" Style="{StaticResource Style}"/>
-                <ListView Style="{StaticResource StyleT}" />
-                <Label Content="Gün, Saat" Style="{StaticResource Style}"/>
-                <ListView Style="{StaticResource StyleT}" />
-                <ListBox Height="80" Width="340" Margin="0 10 0 0">
+                <ComboBox Width="340" Height="40" SelectedItem="{Binding xesteMuracieti.analizNovu}">
+                    <Label>Sitoloji ve Patoloji</Label>
+                    <Label>Bakteroloji</Label>
+                    <Label>Histoloji</Label>
+                    <Label>PCR analizler</Label>
+                    <Label>Klinik analizler</Label>
+                    <Label>Biokimyevi analizler</Label>
+                </ComboBox>
+                <Label Content="Gün" Style="{StaticResource Style}"/>
+                <ComboBox Width="340" Height="40" SelectedItem="{Binding xesteMuracieti.gun}">
+                    <Label>Bazar ertesi</Label>
+                    <Label>Cersenbe axsami</Label>
+                    <Label>Cersenbe</Label>
+                    <Label>Cume axsami</Label>
+                    <Label>Cume</Label>
+                    <Label>Senbe</Label>
+                    <Label>Bazar</Label>
+                </ComboBox>
+                
+                <Label Content="Saat" Style="{StaticResource Style}"/>
+                <ComboBox Width="340" Height="40" SelectedItem="{Binding xesteMuracieti.saat}">
+                    <Label>9:00-12:00</Label>
+                    <Label>12:05-15:00</Label>
+                    <Label>15:05-18:00</Label>
+                </ComboBox>
 
-                </ListBox>
-                <Border Background="#3766a0" Margin="220 10 0 0" Width="120" BorderThickness="2" BorderBrush="#071e2a" CornerRadius="9">
-                    <Label Content="QEYDİYYATDAN KEÇ" Foreground="White"/>
-                </Border>
+                <Button Style="{StaticResource qeydiyyat}" Command="{Binding tamamlaCommand}" Content="Tamamla" Background="#3766a0" >
+                </Button>
             </StackPanel>
         </Border>
     </Grid>

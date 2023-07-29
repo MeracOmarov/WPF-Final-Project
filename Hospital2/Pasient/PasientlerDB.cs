@@ -8,7 +8,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Windows;
 
 namespace Hospital.Pasient
 {
@@ -23,6 +23,9 @@ namespace Hospital.Pasient
         public static ObservableCollection<Pasients>? pasients { get; set; } = new() { };
         static PasientlerDB()
         {
+            pasients = ClassQeydiyyat.ReadData<ObservableCollection<Pasients>>("pasients");
+        }
+        public PasientlerDB(){
             pasients = ClassQeydiyyat.ReadData<ObservableCollection<Pasients>>("pasients");
         }
     }

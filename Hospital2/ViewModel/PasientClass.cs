@@ -29,10 +29,12 @@ namespace Hospital.ViewModel
         private void SualCavab(object? sender)
         {
             Pasientsexsikobinet.pasientsexsikobinet!.MainFrame.Content = new SualCavab();
+       
         }
         private void Laboratoriya(object? sender)
         {
-            Pasientsexsikobinet.pasientsexsikobinet!.MainFrame.Content = new Laboratoriya();
+            Pasientsexsikobinet.pasientsexsikobinet!.MainFrame.Content = new Laboratoriya();  
+            
         }
         public PasientClass()
         {

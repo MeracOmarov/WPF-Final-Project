@@ -25,8 +25,8 @@ namespace Hospital2.Pages
             DataContext=new EnYaxinXestexanaViewModel();
             var mapKey = "atdthVyqDCYydLA26DCL~SC41f6rxsdjIXsNz3GllbQ~AikySlhq1Q5Y4OqPJM-hUITVvNbnChXfFFaAVq8hxDQWCuLGhDorrDI7RO7RzCVz";
             myMap.CredentialsProvider = new ApplicationIdCredentialsProvider(mapKey);
-
-
+        
+        
         }
     }
 }
