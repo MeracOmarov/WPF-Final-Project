@@ -16,11 +16,13 @@ namespace HOSBITAL.ViewModel
         public RealCommand ?tamamlaCommand { get; set; }
         public RealCommand ?Close_command { get; set; }
 
-
-        public XesteMuracieti xesteMuracieti { get; set; }
+        public XesteMuracieti xesteMuracieti { get; set; } = new();
         private void Tamamla(object? sender)
         {
             Pasientsexsikobinet.pasientsexsikobinet!.MainFrame.Navigate(null);
+            ClassMuracietler.hekimler.xesteMuracieti.Add(xesteMuracieti);
+            ClassQeydiyyat.WriteData(ClassMuracietler.hekimler.xesteMuracieti,"muracietler");
+
         }
 
         private void Close(object? sender)

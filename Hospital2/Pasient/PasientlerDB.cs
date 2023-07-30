@@ -20,6 +20,9 @@ namespace Hospital.Pasient
             PasientlerDB.pasients!.Add(pasients);
             ClassQeydiyyat.WriteData(PasientlerDB.pasients, "pasients");
         }
+
+
+        public static Pasients CurrentPasient { get; set; } = new();
         public static ObservableCollection<Pasients>? pasients { get; set; } = new() { };
         static PasientlerDB()
         {

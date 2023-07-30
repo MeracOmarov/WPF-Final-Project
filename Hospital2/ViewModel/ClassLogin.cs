@@ -61,6 +61,7 @@ namespace HOSBITAL.ViewModel
                 if (pasient.seriyaID==seriyaID && pasient.Password==password)
                 {
                     button.IsEnabled = true;
+                    PasientlerDB.CurrentPasient = pasient;
                     return true;
                 }
             }
