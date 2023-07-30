@@ -18,21 +18,13 @@ namespace HOSBITAL.Pages
 {
     public partial class Qebul : Page
     {
+        public static Qebul ?qebul;
         public Qebul()
         {
             InitializeComponent();
             DataContext = new ClassQebul();
+            qebul = this;
         }
 
-        private void RadioButton_Click(object sender, RoutedEventArgs e)
-        {
-            qebultxtBox.Visibility = Visibility.Collapsed;
-        }
-
-        private void RadioButton_Click_1(object sender, RoutedEventArgs e)
-        {
-            qebultxtBox.Visibility = Visibility.Visible;
-
-        }
     }
 }

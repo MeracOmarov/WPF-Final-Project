@@ -135,7 +135,7 @@ namespace HOSBITAL.ViewModel
 
         public static T? ReadData<T>(string filename) where T : new()
         {
-            T? readData = new T();
+            T? readData = new T(); 
 
             JsonSerializerOptions op = new JsonSerializerOptions();
             op.WriteIndented = true;

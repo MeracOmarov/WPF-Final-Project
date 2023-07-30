@@ -22,3 +22,4 @@ namespace Hospital2.Models
     }
 
 }
+ 

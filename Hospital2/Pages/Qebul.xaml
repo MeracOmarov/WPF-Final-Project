@@ -11,15 +11,18 @@
     <Grid>
         <Border BorderThickness="1" BorderBrush="Black" Width="400" Height="450">
             <StackPanel  Background="#C8d3e0" >
-                <Label Content="Xəstəxana" Style="{StaticResource Style}"/>
-                <ComboBox Width="340" Height="40"  >
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Xəstəxana" Style="{StaticResource Style}"/>
+                    <Button Content="X" FontSize="11" Margin="210,0,0,0" FontWeight="ExtraBold" Foreground="White" Width="50" Height="20"  Background="#3766a0" Command="{Binding Close_command}"/>
+                </StackPanel>
+                <ComboBox Width="340" Height="40" SelectedItem="{Binding Xestexana}"  >
                     <TextBlock Text="Dernegul Grand Hospital"/>
                     <TextBlock Text="Nerimanov Grand Hospital"/>
                     <TextBlock Text="28 May Grand Hospital"/>
                     <TextBlock Text="Azadliq Grand Hospital"/>
                 </ComboBox>
                 <Label Content="Müainə" Style="{StaticResource Style}"/>
-                <ComboBox Width="340" Height="40">
+                <ComboBox Width="340" Height="40" SelectedItem="{Binding Muayine}">
                     <TextBlock Text="Dermatoloq"/>
                     <TextBlock Text="Lor"/>
                     <TextBlock Text="Kardioloq"/>
@@ -30,17 +33,17 @@
                 </ComboBox>
                 <StackPanel>
                     <Label Content="Həkim" Style="{StaticResource Style}"/>
-                    <StackPanel Orientation="Horizontal">
-                        <Label Content="Bir başa" Style="{StaticResource Style}"/>
-                        <RadioButton Click="RadioButton_Click" Margin="0 13 0 0"/>
-                        <Label Content="Ixtiyari" Style="{StaticResource Style}"/>
-                        <RadioButton Click="RadioButton_Click_1" Margin="0 13 0 0"/>
-                        
-                    </StackPanel>
-                    <TextBox x:Name="qebultxtBox" Width="340" Height="40" Margin="0,10,0,0"/>
+                    <ComboBox Width="340" Height="40" SelectedItem="{Binding Hekim}" >
+                        <TextBlock Text="Ibrahim"/>
+                        <TextBlock Text="Merac"/>
+                        <TextBlock Text="Hesen"/>
+                        <TextBlock Text="Rustem"/>
+                    </ComboBox>
+                  
                 </StackPanel>
 
-                <Button Style="{StaticResource qeydiyyat}" Content="Tamamlandi"/>
+                <Button Style="{StaticResource qeydiyyat}" Content="Tamamlandi"
+                        Command="{Binding tamamlandiButton}"/>
             </StackPanel>
         </Border>
     </Grid>

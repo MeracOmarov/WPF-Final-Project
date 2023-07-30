@@ -14,6 +14,7 @@ namespace Hospital2.Models
     public class Hekimler : INotifyPropertyChanged
     {
 
+        public string ?doctorName { get; set; }
         public ObservableCollection<XesteMuracieti> xesteMuracieti { get; set; } = new();
 
 
