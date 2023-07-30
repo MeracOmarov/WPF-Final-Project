@@ -10,29 +10,5 @@
     "Mail": "ibrahimasadov31@gmail.com",
     "Password": "ibrahim123",
     "againPassword": "ibrahim123"
-  },
-  {
-    "Name": "Amalya",
-    "Surname": "Asadova",
-    "fathersName": "Agayar",
-    "birthday": "02/03/1980",
-    "seriyaID": "AA1233211",
-    "Gender": "qadin",
-    "Number": "050-320-59-60",
-    "Mail": "amalyaasadova@gmail.com",
-    "Password": "amalya123",
-    "againPassword": "amalya123"
-  },
-  {
-    "Name": "Perviz",
-    "Surname": "Esedov",
-    "fathersName": "Agayar",
-    "birthday": "19/05/1980",
-    "seriyaID": "AA2685424",
-    "Gender": "kisi",
-    "Number": "070-709-90-07",
-    "Mail": "doctor.parviz@gmail.com",
-    "Password": "qwerty123",
-    "againPassword": "qwerty123"
   }
 ]
