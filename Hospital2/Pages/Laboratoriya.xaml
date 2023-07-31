@@ -9,7 +9,7 @@
       Title="Laboratoriya" Background="#fff">
 
     <Grid>
-        <ScrollViewer>
+        <ScrollViewer Background="#eaeaf2">
             <StackPanel  Margin="10,30,0,0" ScrollViewer.VerticalScrollBarVisibility="Auto">
                 <StackPanel Orientation="Horizontal" >
                     <Button Style="{StaticResource plusButton}" Content="+" Click="plusBtnClick"/>
