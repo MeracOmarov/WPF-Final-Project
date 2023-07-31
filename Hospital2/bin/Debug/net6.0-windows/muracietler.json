@@ -1,7 +1,7 @@
 [
   {
     "analizNovu": "Histoloji",
-    "gun": "Bazar ertesi",
+    "gun": "Cersembe",
     "saat": "12:05:15:00",
     "pasients": {
       "Name": "Ibrahim",
@@ -17,25 +17,8 @@
     }
   },
   {
-    "analizNovu": "Bakteroloji",
-    "gun": "Bazar",
-    "saat": "15:05:18:00",
-    "pasients": {
-      "Name": "Ibrahim",
-      "Surname": "Asadov",
-      "fathersName": "Perviz",
-      "birthday": "09/10/2004",
-      "seriyaID": "AA2685424",
-      "Gender": "kisi",
-      "Number": "070-404-03-00",
-      "Mail": "ibrahimasadov31@gmail.com",
-      "Password": "ibrahim123",
-      "againPassword": "ibrahim123"
-    }
-  },
-  {
-    "analizNovu": "PCR analizler",
-    "gun": "Cersembe axsami",
+    "analizNovu": "Histoloji",
+    "gun": "Cersembe",
     "saat": "9:00-12:00",
     "pasients": {
       "Name": "Ibrahim",

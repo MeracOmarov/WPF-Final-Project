@@ -34,6 +34,7 @@ namespace HOSBITAL.ViewModel
         }
 
         bool check = false;
+     
 
         public Pasients pasient { get; set; } = new();
         private void QeydiyyatdanKec(object? sender)

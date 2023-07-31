@@ -9,8 +9,8 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Xesteler">
 
-    <Grid Background="#fff">
-        <ListView ScrollViewer.HorizontalScrollBarVisibility="Disabled"  Grid.Row="1" Margin="10"  BorderBrush="Transparent" ItemsSource="{Binding pasients}">
+    <Grid Background="#eaeaf2">
+        <ListView Background="#eaeaf2" ScrollViewer.HorizontalScrollBarVisibility="Disabled"  Grid.Row="1" Margin="10"  BorderBrush="Transparent" ItemsSource="{Binding pasients}">
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate >
                     <WrapPanel Orientation="Horizontal"/>

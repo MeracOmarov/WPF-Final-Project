@@ -117,7 +117,7 @@ namespace Hospital.Pages {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Hospital2;V1.0.0.0;component/pages/laboratoriya.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Hospital2;component/pages/laboratoriya.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Pages\Laboratoriya.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

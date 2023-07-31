@@ -1,2 +1,3 @@
-2023/07/31-19:12:51.524 11bc Creating DB C:\Users\Asado_ho45\Desktop\Hospital-WPF\Hospital2\bin\Debug\net6.0-windows\Hospital2.exe.WebView2\EBWebView\Default\Local Storage\leveldb since it was missing.
-2023/07/31-19:12:51.550 11bc Reusing MANIFEST C:\Users\Asado_ho45\Desktop\Hospital-WPF\Hospital2\bin\Debug\net6.0-windows\Hospital2.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2023/07/31-19:50:18.723 4048 Reusing MANIFEST C:\Users\Asado_ho45\Desktop\Hospital-WPF\Hospital2\bin\Debug\net6.0-windows\Hospital2.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2023/07/31-19:50:18.727 4048 Recovering log #3
+2023/07/31-19:50:18.732 4048 Reusing old log C:\Users\Asado_ho45\Desktop\Hospital-WPF\Hospital2\bin\Debug\net6.0-windows\Hospital2.exe.WebView2\EBWebView\Default\Local Storage\leveldb/000003.log 
