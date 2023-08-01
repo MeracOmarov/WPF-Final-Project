@@ -18,21 +18,20 @@
             </ListView.ItemsPanel>
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <Grid>
-                        <Border Style="{StaticResource pasientsBorders}" Padding="10" Margin="10">
-                            <StackPanel Orientation="Vertical" Background="Transparent" >
-                                <StackPanel>
-                                    <Border CornerRadius="50" Background="DarkGray"/>
-                                    <StackPanel Orientation="Horizontal" Margin="0,50,0,0">
-                                        <TextBlock Text="Xeste Sikayeti:" FontWeight="Bold" Foreground="#fff" FontFamily="/Fonts/#Sulphur Point"/>
-                                        <TextBlock Text="{Binding content}" Foreground="#fff" Margin="2,0,0,0"
-                                                   FontFamily="/Fonts/#Sulphur Point" FontWeight="Bold"/>
-                                    </StackPanel>
-                                </StackPanel>
-                            </StackPanel>
-                        </Border>
-                    </Grid>
 
+                    <StackPanel Orientation="Vertical" Background="Transparent" >
+                        <StackPanel VerticalAlignment="Center">
+                                <Border Width="450" Height="150" Padding="10" Background="#6278ff" CornerRadius="10" BorderThickness="2" >
+                            <StackPanel Orientation="Horizontal" Margin="0,20,0,0" VerticalAlignment="Center">
+                                    <TextBlock FontSize="25" Text="Xeste Sikayeti:" Foreground="#fff"  FontWeight="Bold"  FontFamily="/Fonts/#Sulphur Point"/>
+                                <TextBlock VerticalAlignment="Center" FontSize="25" Text="{Binding content}" Foreground="#fff" 
+                                    FontFamily="/Fonts/#Sulphur Point" FontWeight="Bold"/>
+                            </StackPanel>
+                                </Border>
+                        </StackPanel>
+                    </StackPanel>
+
+                    
                 </DataTemplate>
             </ListView.ItemTemplate>
 

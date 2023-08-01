@@ -16,7 +16,7 @@ namespace HOSBITAL.ViewModel
 
         public ClassMuracietler()
         {
-            hekimler.xesteMuracieti=ClassQeydiyyat.ReadData<ObservableCollection<XesteMuracieti>>("muracietler");
+            hekimler.xesteMuracieti=ClassQeydiyyat.ReadData<ObservableCollection<XesteMuracieti>>("muracietler")!;
         }
     }
 }
