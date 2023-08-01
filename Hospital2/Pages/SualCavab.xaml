@@ -21,8 +21,8 @@
                 </StackPanel>
                 <ListBox Width="350" Height="150" Margin="0 20 0 0"/>
                 <StackPanel Orientation="Horizontal" Margin="25 0 0 0">
-                    <TextBox Margin="0 10 0 0" FontSize="26" Background="#bab4a2" Width="300"/>
-                    <Button Content="SEND" Margin="10 10 0 0" Height="30"/>
+                    <TextBox x:Name="sikayetTextBox" Margin="0 10 0 0" FontSize="26" Background="#bab4a2" Width="300" Text="{Binding xesteSikayeti.content}"/>
+                    <Button Content="SEND" Margin="10 10 0 0" Height="30" Command="{Binding sendCommand}"/>
                 </StackPanel>
             </StackPanel>
         </Border>

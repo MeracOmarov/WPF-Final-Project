@@ -61,10 +61,10 @@
 
                 <StackPanel>
                     <Border Style="{StaticResource borders}" Margin="50,0,0,0">
-                        <Button Style="{StaticResource buttons}" >
+                        <Button Style="{StaticResource buttons}" Command="{Binding sikayetlerCommand}">
                             <StackPanel Orientation="Vertical">
-                                <Image Source="/Images/operate.png" Margin="0,20,0,0" Width="40" VerticalAlignment="Top"/>
-                                <TextBlock  TextWrapping="Wrap" Text="Muayineler ve Emeliyyatlar" FontWeight="Bold" Foreground="#afafaf"  HorizontalAlignment="Center" Margin="0,30,0,0"/>
+                                <Image Source="/Images/complaints.png" Margin="0,20,0,0" Width="40" VerticalAlignment="Top"/>
+                                <TextBlock  TextWrapping="Wrap" Text="Xeste Sikayetleri" FontWeight="Bold" Foreground="#afafaf"  HorizontalAlignment="Center" Margin="0,30,0,0"/>
                             </StackPanel>
                         </Button>
                     </Border>

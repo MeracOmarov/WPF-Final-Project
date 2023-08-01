@@ -16,6 +16,7 @@ namespace Hospital2.Models
 
         public string ?doctorName { get; set; }
         public ObservableCollection<XesteMuracieti> xesteMuracieti { get; set; } = new();
+        public ObservableCollection<XesteSikayeti> xesteSikayeti { get; set; } = new();
 
 
         public event PropertyChangedEventHandler? PropertyChanged;

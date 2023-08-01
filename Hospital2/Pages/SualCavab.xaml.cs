@@ -13,10 +13,13 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using HOSBITAL.ViewModel;
+using Hospital2.Models;
+using Hospital2.Pages;
+using Hospital2.ViewModel;
 
 namespace Hospital.Pages
 {
-    
+
     public partial class SualCavab : Page
     {
         public SualCavab()
@@ -24,5 +27,7 @@ namespace Hospital.Pages
             InitializeComponent();
             DataContext = new ClassSualCavab();
         }
+
+
     }
 }

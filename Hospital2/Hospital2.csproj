@@ -13,6 +13,7 @@
     <None Remove="Fonts\SulphurPoint-Light.otf" />
     <None Remove="Fonts\SulphurPoint-Regular.otf" />
     <None Remove="Images\5noxestexana.jpg" />
+    <None Remove="Images\complaints.png" />
     <None Remove="Images\department.png" />
     <None Remove="Images\EgeHospital.jpg" />
     <None Remove="Images\ege_hospital.jpg" />
@@ -46,6 +47,7 @@
     <Resource Include="Fonts\SulphurPoint-Light.otf" />
     <Resource Include="Fonts\SulphurPoint-Regular.otf" />
     <Resource Include="Images\5noxestexana.jpg" />
+    <Resource Include="Images\complaints.png" />
     <Resource Include="Images\department.png" />
     <Resource Include="Images\EgeHospital.jpg" />
     <Resource Include="Images\ege_hospital.jpg" />

@@ -1,5 +1,6 @@
 ﻿using HOSBITAL.Commands;
 using Hospital.Views;
+using Hospital2.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,12 +11,10 @@ namespace HOSBITAL.ViewModel
 {
     public class ClassQebul
     {
-        public string ?Xestexana { get; set; }
-        public string ?Muayine { get; set; }
-        public string ?Hekim { get; set; }
-
+       
         public RealCommand? tamamlandiButton { get; set; }
         public RealCommand? Close_command { get; set; }
+
 
         private void Tamamlandi(object? sender)
         {
