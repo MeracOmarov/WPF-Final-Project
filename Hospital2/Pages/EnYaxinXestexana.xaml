@@ -11,7 +11,7 @@
     <Grid >
         
             <map:Map x:Name="myMap"  Center="40.41507631418173, 49.85335487708677" Mode="Road" ZoomLevel="13">
-            <Button Content="X" FontSize="11" HorizontalAlignment="Right" VerticalAlignment="Top" FontWeight="ExtraBold" Foreground="White" Width="50" Height="20"  Background="#3766a0" Command="{Binding closeCommand}"/>
+            <Button Style="{StaticResource Close}" Content="X" FontSize="11" Margin="0,20,40,0" HorizontalAlignment="Right" VerticalAlignment="Top" FontWeight="ExtraBold" Command="{Binding closeCommand}"/>
 
             <map:Pushpin Background="red" Location="40.41659793974056, 49.84149438006882" FontWeight="Bold" Content="H" Foreground="#fff">
                 <map:Pushpin.ToolTip>

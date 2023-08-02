@@ -10,9 +10,9 @@
 
     <Grid>
         <Grid>
-            <Border Background="#C8d3e0" Width="400" Height="250" CornerRadius="22">
+            <Border Background="#C8d3e0" Width="400" Height="300" CornerRadius="22">
                 <StackPanel Width="300" Margin="50,18,50,5">
-                    <Button Content="X" HorizontalAlignment="Right" FontWeight="ExtraBold" Foreground="White" Width="50" Height="20" Command="{Binding closeCommand}"  Background="#3766a0"/>
+                    <Button  Style="{StaticResource Close}" Content="X" HorizontalAlignment="Right" FontWeight="ExtraBold"  Command="{Binding closeCommand}" Height="40"  />
                     <Label Content="Şəxsiyyətin seriasını daxil edin" FontWeight="Bold" FontSize="20"/>
                     <TextBox Text="{Binding seriyaID, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" FontSize="20"/>
                     <Label Content="Parolu daxil edin" FontWeight="Bold" FontSize="20"/>

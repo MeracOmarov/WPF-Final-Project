@@ -27,7 +27,7 @@ namespace Hospital2.ViewModel
 
         public SikayetlerViewModel()
         {
-            hekimler.xesteSikayeti = ReadData<ObservableCollection<XesteSikayeti>>("sikayetler");
+            hekimler.xesteSikayeti = ReadData<ObservableCollection<XesteSikayeti>>("sikayetler")!;
             closeCommand = new RealCommand(Close);
         }
 

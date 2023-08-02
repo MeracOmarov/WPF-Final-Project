@@ -9,7 +9,8 @@
       Title="Sikayetler" Background="#eaeaf2">
 
     <Grid>
-        <Button Content="X" FontSize="11" HorizontalAlignment="Right" VerticalAlignment="Top" Panel.ZIndex="1" FontWeight="ExtraBold" Foreground="White" Width="50" Height="20"  Background="#3766a0" Command="{Binding closeCommand}"/>
+        
+        <Button Style="{StaticResource Close}"  Content="X" FontSize="11" HorizontalAlignment="Right" Margin="0,30,80,0" VerticalAlignment="Top" Panel.ZIndex="1" FontWeight="ExtraBold" Foreground="White"  Command="{Binding closeCommand}"/>
 
         <ListView Background="#eaeaf2" ScrollViewer.HorizontalScrollBarVisibility="Disabled"  Grid.Row="1" Margin="10"  BorderBrush="Transparent" 
                   ItemsSource="{Binding hekimler.xesteSikayeti}">

@@ -1,5 +1,8 @@
 [
   {
+    "analizNovu": null,
+    "gun": null,
+    "saat": null,
     "pasients": {
       "Name": "Ibrahim",
       "Surname": "Asadov",
@@ -12,14 +15,14 @@
       "Password": "ibrahim123",
       "againPassword": "ibrahim123"
     },
-    "analizNovu": null,
-    "gun": null,
-    "saat": null,
     "xestexana": null,
     "muaine": null,
     "hekim": null
   },
   {
+    "analizNovu": null,
+    "gun": null,
+    "saat": null,
     "pasients": {
       "Name": "Ibrahim",
       "Surname": "Asadov",
@@ -32,9 +35,6 @@
       "Password": "ibrahim123",
       "againPassword": "ibrahim123"
     },
-    "analizNovu": null,
-    "gun": null,
-    "saat": null,
     "xestexana": null,
     "muaine": null,
     "hekim": null

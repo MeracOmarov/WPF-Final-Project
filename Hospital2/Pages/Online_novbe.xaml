@@ -13,7 +13,7 @@
             <StackPanel  Background="#C8d3e0" >
                 <StackPanel Orientation="Horizontal">
                     <Label Content="Analiz növü" Style="{StaticResource Style}"/>
-                    <Button Content="X" FontSize="11" Margin="195,0,0,0" FontWeight="ExtraBold" Foreground="White" Width="50" Height="20"  Background="#3766a0" Command="{Binding Close_command}"/>
+                    <Button Style="{StaticResource Close}" Content="X" FontSize="11" Margin="195,0,0,0" FontWeight="ExtraBold" Command="{Binding Close_command}"/>
                 </StackPanel>
 
                 <ComboBox Width="340" Height="40" SelectedItem="{Binding xesteMuracieti.analizNovu}">

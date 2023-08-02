@@ -719,3 +719,4 @@ C:\Users\Asus\Desktop\Hospital-WPF\Hospital2\obj\Debug\net6.0-windows\Pages\Sika
 C:\Users\Asus\Desktop\Hospital-WPF\Hospital2\obj\Debug\net6.0-windows\Pages\Sikayetler.baml
 C:\Users\Asado_ho45\Desktop\Hospital-WPF\Hospital2\obj\Debug\net6.0-windows\Pages\Sikayetler.g.cs
 C:\Users\Asado_ho45\Desktop\Hospital-WPF\Hospital2\obj\Debug\net6.0-windows\Pages\Sikayetler.baml
+C:\Users\Asado_ho45\Desktop\Hospital-WPF\Hospital2\obj\Debug\net6.0-windows\Dictionary\SikayetlerRD.baml
