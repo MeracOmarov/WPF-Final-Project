@@ -29,10 +29,7 @@
                     <Label Content="012 567 20 00"/>
                 </StackPanel>
             </StackPanel>
-            <StackPanel Orientation="Horizontal" Margin="10">
-                <fa:ImageAwesome Icon="FileText" Width="50"/>
-                <Button Content="QƏBULA YAZILIN" Margin="12 2 0 0" Background="White" BorderBrush="White" Foreground="Black" FontWeight="Bold" FontSize="20" />
-            </StackPanel>
+           
             <StackPanel Orientation="Horizontal" Margin="10">
                 <fa:ImageAwesome Icon="LocationArrow" Width="50"/>
                 <Button Content="ƏN YAXIN XƏSTƏXANA" Command="{Binding enYaxinXestexanaCommand}" Margin="10 2 0 0" Background="White" BorderBrush="White" Foreground="Black" FontWeight="Bold" FontSize="20"/>

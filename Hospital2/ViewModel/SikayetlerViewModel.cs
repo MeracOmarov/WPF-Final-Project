@@ -16,12 +16,19 @@ namespace Hospital2.ViewModel
     public class SikayetlerViewModel
     {
         public static ObservableCollection<XesteSikayeti> xesteSikayetleri { get; set; } = new();
+        public RealCommand closeCommand { get; set; }
+
+        private void Close(object? sender)
+        {
+            Hekimsexsikobinet.hekimsexsikobinet!.MainFrame.Navigate(null);
+        }
 
         public static Hekimler hekimler { get; set; } = new();
 
         public SikayetlerViewModel()
         {
             hekimler.xesteSikayeti = ReadData<ObservableCollection<XesteSikayeti>>("sikayetler");
+            closeCommand = new RealCommand(Close);
         }
 
         public static void WriteData<T>(T? list, string filename)
@@ -42,6 +49,6 @@ namespace Hospital2.ViewModel
 
             return readData;
         }
-
+      
     }
 }

@@ -11,6 +11,7 @@ using Hospital.Views;
 using Hospital2.Pages;
 using Hospital2.ViewModel;
 using Hospital2.Views;
+using Hospital.Pages;
 
 namespace HOSBITAL.ViewModel
 {
@@ -21,6 +22,7 @@ namespace HOSBITAL.ViewModel
         public RealCommand? enYaxinXestexanaCommand { get; set; }
         public RealCommand? haqqimizdaCommand { get; set; }
 
+        
         private void DaxilOl(object? sender)
         {
             Girish.girish!.MainFrame.Content = new Login();
@@ -42,6 +44,8 @@ namespace HOSBITAL.ViewModel
             Haqqimizda haqqimizda = new Haqqimizda();
             haqqimizda.ShowDialog();
         }
+
+       
         public ClassGiris()
         {
             daxilOlCommand = new RealCommand(DaxilOl);

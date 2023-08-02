@@ -10,6 +10,8 @@
       Title="Xesteler">
 
     <Grid Background="#eaeaf2">
+        <Button Panel.ZIndex="1" Content="X" FontSize="11" FontWeight="ExtraBold" HorizontalAlignment="Right" VerticalAlignment="Top" Foreground="White" Width="50" Height="20"  Background="#3766a0" Command="{Binding closeCommand}"/>
+
         <ListView Background="#eaeaf2" ScrollViewer.HorizontalScrollBarVisibility="Disabled"  Grid.Row="1" Margin="10"  BorderBrush="Transparent" ItemsSource="{Binding pasients}">
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate >

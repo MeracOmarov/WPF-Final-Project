@@ -21,6 +21,7 @@ namespace HOSBITAL.ViewModel
     {
         public RealCommand? qeydiyyatCommand { get; set; }
         public RealCommand? daxilOlCommand { get; set; }
+        public RealCommand? closeCommand { get; set; }
 
         private string _seriyaID;
         private string _password;
@@ -40,6 +41,11 @@ namespace HOSBITAL.ViewModel
         {
             Qeydiyyat qeydiyyat = new Qeydiyyat();
             Girish.girish!.MainFrame.Content = qeydiyyat;
+        }
+
+        private void Close(object? sender)
+        {
+            Girish.girish.MainFrame.Navigate(null);
         }
 
         public event PropertyChangedEventHandler? PropertyChanged;
@@ -74,6 +80,7 @@ namespace HOSBITAL.ViewModel
 
             daxilOlCommand = new(DaxilOl,IsPasient);
             qeydiyyatCommand = new(QeydiyyatButton);
+            closeCommand = new(Close);
         
 
         }
