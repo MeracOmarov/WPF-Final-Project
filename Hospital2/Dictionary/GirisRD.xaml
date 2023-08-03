@@ -31,6 +31,28 @@
         </Style.Triggers>
     </Style>
 
+    <Style x:Key="unvanBtn" TargetType="Button">
+        <Setter Property="Foreground" Value="OrangeRed"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}" CornerRadius="10" BorderThickness="1">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="#e8e8e8"/>
+                <Setter Property="Foreground" Value="#ffffff"/>
+            </Trigger>
+
+        </Style.Triggers>
+    </Style>
+
     <Style x:Key="Style" TargetType="Label">
         <Setter Property="FontWeight" Value="Bold"/>
         <Setter Property="FontSize" Value="20"/>

@@ -25,7 +25,7 @@ namespace HOSBITAL.ViewModel
         public RealCommand? closeCommand { get; set; }
 
         public void Send(object? param)
-        {
+        { 
               
             xesteSikayeti!.pasientSikayeti = PasientlerDB.CurrentPasient;
             SikayetlerViewModel.xesteSikayetleri.Add(xesteSikayeti);

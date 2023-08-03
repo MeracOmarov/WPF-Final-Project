@@ -10,52 +10,18 @@
 
     <Grid >
         
-            <map:Map x:Name="myMap"  Center="40.41507631418173, 49.85335487708677" Mode="Road" ZoomLevel="13">
+            <map:Map x:Name="myMap"  Center="40.41507631418173, 49.85335487708677" Mode="Road" ZoomLevel="12">
             <Button Style="{StaticResource Close}" Content="X" FontSize="11" Margin="0,20,40,0" HorizontalAlignment="Right" VerticalAlignment="Top" FontWeight="ExtraBold" Command="{Binding closeCommand}"/>
 
-            <map:Pushpin Background="red" Location="40.41659793974056, 49.84149438006882" FontWeight="Bold" Content="H" Foreground="#fff">
+            <map:Pushpin Background="red" Location="40.39908732957708, 49.83548171782613" FontWeight="Bold" Content="H" Foreground="#fff">
                 <map:Pushpin.ToolTip>
                     <ToolTip>
-                        <Image Source="/Images/5noxestexana.jpg"/>
+                        <Image Source="/Images/ege_hospital.jpg"/>
                     </ToolTip>
                 </map:Pushpin.ToolTip>
             </map:Pushpin>
 
-            <map:Pushpin Background="red" Location="40.41336398941155, 49.846908925019044" FontWeight="Bold" Foreground="#fff" Content="H">
-                <map:Pushpin.ToolTip>
-                    <ToolTip>
-                        <Image Source="/Images/HBGuven.jpg"/>
-                    </ToolTip>
-                </map:Pushpin.ToolTip>
-            </map:Pushpin>
-            <map:Pushpin Background="red" Location="40.409116080700926, 49.84652268694592" FontWeight="Bold" Foreground="#fff" Content="H">
-                <map:Pushpin.ToolTip>
-                    <ToolTip>
-                        <Image Source="/Images/IstanbulNS.jpg"/>
-                    </ToolTip>
-                </map:Pushpin.ToolTip>
-            </map:Pushpin>
-            <map:Pushpin Background="red" Location="40.416892817346834, 49.844462750555884" FontWeight="Bold" Foreground="#fff" Content="H">
-                <map:Pushpin.ToolTip>
-                    <ToolTip Width="150">
-                        <Image Source="/Images/EgeHospital.jpg"/>
-                    </ToolTip>
-                </map:Pushpin.ToolTip>
-            </map:Pushpin>
-            <map:Pushpin Background="red" Location="40.40411627532456, 49.862100956598695" FontWeight="Bold" Content="H" Foreground="#fff">
-                <map:Pushpin.ToolTip>
-                    <ToolTip>
-                        <Image Source="/Images/MedicalPlaza.jpg"/>
-                    </ToolTip>
-                </map:Pushpin.ToolTip>
-            </map:Pushpin>
-            <map:Pushpin Background="red" Location="40.39926042205732, 49.83552878961993" FontWeight="Bold" Content="H" Foreground="#fff">
-                <map:Pushpin.ToolTip>
-                    <ToolTip>
-                        <Image Source="/Images/MederaHospital.jpg"/>
-                    </ToolTip>
-                </map:Pushpin.ToolTip>
-            </map:Pushpin>
+           
 
         </map:Map>
     </Grid>

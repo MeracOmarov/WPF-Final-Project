@@ -1,45 +1,11 @@
 [
   {
-    "pasients": {
-      "Name": "Ibrahim",
-      "Surname": "Asadov",
-      "fathersName": "Perviz",
-      "birthday": "09/10/2004",
-      "seriyaID": "AA2685424",
-      "Gender": "kisi",
-      "Number": "070-404-03-00",
-      "Mail": "ibrahimasadov31@gmail.com",
-      "Password": "ibrahim123",
-      "againPassword": "ibrahim123"
-    },
     "analizNovu": "PCR analizler",
-    "gun": "Cersembe",
-    "saat": "12:05:15:00",
-    "xestexana": "28 May Ege Hospital",
-    "muaine": "Uroloq",
-    "hekim": "Uzman Veli Ceferov"
-  },
-  {
-    "pasients": {
-      "Name": "Ibrahim",
-      "Surname": "Asadov",
-      "fathersName": "Perviz",
-      "birthday": "09/10/2004",
-      "seriyaID": "AA2685424",
-      "Gender": "kisi",
-      "Number": "070-404-03-00",
-      "Mail": "ibrahimasadov31@gmail.com",
-      "Password": "ibrahim123",
-      "againPassword": "ibrahim123"
-    },
-    "analizNovu": "Sitoloji ve Patoloji",
-    "gun": "Senbe",
+    "gun": "Bazar ertesi",
     "saat": "12:05:15:00",
     "xestexana": "Nerimanov Ege Hospital",
     "muaine": "Kardioloq",
-    "hekim": "Uzman Veli Ceferov"
-  },
-  {
+    "hekim": "Uzman Veli Ceferov",
     "pasients": {
       "Name": "Ibrahim",
       "Surname": "Asadov",
@@ -51,12 +17,6 @@
       "Mail": "ibrahimasadov31@gmail.com",
       "Password": "ibrahim123",
       "againPassword": "ibrahim123"
-    },
-    "analizNovu": null,
-    "gun": null,
-    "saat": null,
-    "xestexana": null,
-    "muaine": null,
-    "hekim": null
+    }
   }
 ]
