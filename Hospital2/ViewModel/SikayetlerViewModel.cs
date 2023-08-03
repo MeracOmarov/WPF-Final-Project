@@ -15,7 +15,7 @@ namespace Hospital2.ViewModel
 {
     public class SikayetlerViewModel
     {
-        public static ObservableCollection<XesteSikayeti> xesteSikayetleri { get; set; } = new();
+        public  static ObservableCollection<XesteSikayeti> xesteSikayetleri { get; set; } = new();
         public RealCommand closeCommand { get; set; }
 
         private void Close(object? sender)

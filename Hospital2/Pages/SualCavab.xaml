@@ -43,8 +43,8 @@
                     </Border>
                 </Grid>
                 <Grid Grid.Row="1">
-                    <ListView Background="Transparent" x:Name="listView">
-                        <StackPanel Orientation="Horizontal">
+                    <StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0 0 0 20">
                             <Border BorderThickness="1" Width="30" 
                                     Height="30"
                                     HorizontalAlignment="Left"
@@ -58,13 +58,19 @@
                                 <TextBlock VerticalAlignment="Center" Padding="10,0,0,0" HorizontalAlignment="Left" Foreground="#fff" Text="Sikayetiniz nedir?" TextWrapping="Wrap"/>
                             </Border>
                         </StackPanel>
-                    </ListView>
+
+
+                        <Border CornerRadius="10" Width="150" Height="30" Background="#1f1f1f" Visibility="{Binding status}" HorizontalAlignment="Right">
+                            <TextBlock VerticalAlignment="Center" Padding="10,0,0,0" HorizontalAlignment="Left" Foreground="#fff"  Text="{Binding xesteSikayeti.content}" TextWrapping="Wrap"/>
+                        </Border>
+
+                    </StackPanel>
                 </Grid>
                 <Grid Grid.Row="2">
                     <TextBlock MouseDown="textBlock_MouseDown" x:Name="textBlock" Margin="50,0,0,0" Panel.ZIndex="1" Text="Mesajinizi Gonderin" Foreground="gray" VerticalAlignment="Center"/>
                     <Border BorderThickness="1"   CornerRadius="10">
                         <TextBox x:Name="txtBox" TextChanged="textBox_TextChanged"  Foreground="#fff" Padding="10,15,0,0" Text="{Binding xesteSikayeti.content}"  Width="220" BorderBrush="Transparent" Height="50" Background="#272626">
-                            
+
                         </TextBox>
                     </Border>
                     <Button Click="Button_Click"  HorizontalAlignment="Right" Command="{Binding sendCommand}" BorderBrush="Transparent" Background="Transparent">
@@ -74,6 +80,6 @@
 
             </Grid>
         </Border>
-      
+
     </Grid>
 </Page>
