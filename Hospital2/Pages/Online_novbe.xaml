@@ -99,33 +99,7 @@
 
 
                     </ComboBox>
-                    <Label Content="Xestexana" Style="{StaticResource Style}"/>
-
-                    <ComboBox Width="340" Height="40" SelectedItem="{Binding xesteMuracieti.xestexana}">
-                        <ComboBox.Resources>
-                            <Style TargetType="ComboBoxItem">
-                                <Setter Property="Foreground" Value="Black" />
-                            </Style>
-                        </ComboBox.Resources>
-                        <ComboBox.ItemsSource>
-                            <x:Array Type="{x:Type sys:String}" xmlns:sys="clr-namespace:System;assembly=mscorlib">
-                                <sys:String>Dernegul Ege Hospital</sys:String>
-                                <sys:String>Nerimanov Ege Hospital</sys:String>
-                                <sys:String>28 May Ege Hospital</sys:String>
-                                <sys:String>Azadliq Ege Hospital</sys:String>
-
-                            </x:Array>
-                        </ComboBox.ItemsSource>
-                        <ComboBox.ItemTemplate>
-                            <DataTemplate>
-                                <ComboBoxItem>
-                                    <TextBlock Text="{Binding}"/>
-                                </ComboBoxItem>
-                            </DataTemplate>
-                        </ComboBox.ItemTemplate>
-
-
-                    </ComboBox>
+                    
                     <Label Content="Muaine" Style="{StaticResource Style}"/>
 
                     <ComboBox Width="340" Height="40" SelectedItem="{Binding xesteMuracieti.muaine}">

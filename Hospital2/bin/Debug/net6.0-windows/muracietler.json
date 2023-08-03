@@ -3,7 +3,6 @@
     "analizNovu": null,
     "gun": null,
     "saat": null,
-    "xestexana": null,
     "muaine": null,
     "hekim": null,
     "pasients": {
@@ -17,15 +16,15 @@
       "Mail": "ibrahimasadov31@gmail.com",
       "Password": "ibrahim123",
       "againPassword": "ibrahim123"
-    }
+    },
+    "xestexana": null
   },
   {
-    "analizNovu": "PCR analizler",
-    "gun": "Cume",
+    "analizNovu": "Histoloji",
+    "gun": "Cersembe",
     "saat": "12:05:15:00",
-    "xestexana": "Dernegul Ege Hospital",
-    "muaine": "Kardioloq",
-    "hekim": "Uzman Veli Ceferov",
+    "muaine": "Lor",
+    "hekim": "Uzman Sahin Ezizov",
     "pasients": {
       "Name": "Ibrahim",
       "Surname": "Asadov",
@@ -37,6 +36,7 @@
       "Mail": "ibrahimasadov31@gmail.com",
       "Password": "ibrahim123",
       "againPassword": "ibrahim123"
-    }
+    },
+    "xestexana": null
   }
 ]
