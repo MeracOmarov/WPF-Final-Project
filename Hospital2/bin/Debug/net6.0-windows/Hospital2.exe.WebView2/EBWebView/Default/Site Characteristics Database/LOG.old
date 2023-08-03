@@ -1,9 +1,3 @@
-2023/08/03-00:49:36.579 5a0 Reusing MANIFEST C:\Users\Asus\Desktop\Hospital-WPF\Hospital2\bin\Debug\net6.0-windows\Hospital2.exe.WebView2\EBWebView\Default\Site Characteristics Database/MANIFEST-000001
-2023/08/03-00:49:36.581 5a0 Compacting 4@0 + 0@1 files
-2023/08/03-00:49:36.589 5a0 Generated table #16@0: 2 keys, 194 bytes
-2023/08/03-00:49:36.589 5a0 Compacted 4@0 + 0@1 files => 194 bytes
-2023/08/03-00:49:36.592 5a0 compacted to: files[ 0 1 0 0 0 0 0 ]
-2023/08/03-00:49:36.593 5a0 Delete type=2 #4
-2023/08/03-00:49:36.593 5a0 Delete type=2 #7
-2023/08/03-00:49:36.593 5a0 Delete type=2 #10
-2023/08/03-00:49:36.593 5a0 Delete type=2 #13
+2023/08/03-11:57:28.528 3c18 Reusing MANIFEST C:\Users\Asus\Desktop\Hospital-WPF\Hospital2\bin\Debug\net6.0-windows\Hospital2.exe.WebView2\EBWebView\Default\Site Characteristics Database/MANIFEST-000001
+2023/08/03-11:57:28.529 3c18 Recovering log #15
+2023/08/03-11:57:28.530 3c18 Reusing old log C:\Users\Asus\Desktop\Hospital-WPF\Hospital2\bin\Debug\net6.0-windows\Hospital2.exe.WebView2\EBWebView\Default\Site Characteristics Database/000015.log 

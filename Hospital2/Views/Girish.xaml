@@ -45,9 +45,7 @@
         </StackPanel>
         <StackPanel Grid.Row="3" Orientation="Horizontal"  HorizontalAlignment="Center">
             <Button Content="HAQQIMIZDA" Style="{StaticResource footerGiris}" Command="{Binding haqqimizdaCommand}"/>
-            <Button Content="AKSIYALAR"  Style="{StaticResource footerGiris}"/>
-            <Button Content="MƏQALƏLƏR"  Style="{StaticResource footerGiris}"/>
-            <Button Content="VAKANSİYALAR"  Style="{StaticResource footerGiris}"/>
+         
             <Button Content="HƏKİMLƏR"  Style="{StaticResource footerGiris}" Command="{Binding hekimlerCommand}"/>
         </StackPanel>
         <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Grid.Row="1"/>
