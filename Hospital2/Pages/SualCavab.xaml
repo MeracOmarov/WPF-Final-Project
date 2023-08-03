@@ -3,28 +3,77 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      xmlns:local="clr-namespace:Hospital.Pages" xmlns:fa="http://schemas.fontawesome.io/icons/"
+      xmlns:local="clr-namespace:Hospital.Pages" 
+      xmlns:fa="http://schemas.fontawesome.io/icons/"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="SualCavab">
 
     <Grid>
-        <Border BorderThickness="1" BorderBrush="Black" Width="400" Height="450">
-            <StackPanel Background="#C8d3e0">
-                <StackPanel Orientation="Horizontal" >
-                    <Border Background="#bab4a2" Height="50" Width="50" CornerRadius="50" Margin="15 10 10 0">
-                        <fa:ImageAwesome Icon="HospitalOutline" Height="37"/>
+
+        <Border BorderThickness="2"   CornerRadius="15" Background="#121011" Width="300" Height="450">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.3*"/>
+                    <RowDefinition />
+                    <RowDefinition Height="0.2*"/>
+                </Grid.RowDefinitions>
+                <Grid  Grid.Row="0">
+                    <Border Background="#1f1f1f" CornerRadius="15">
+                        <StackPanel Orientation="Horizontal">
+
+                            <Border BorderThickness="1" Width="40" 
+                                    Height="40"
+                                    HorizontalAlignment="Left"
+                                    Margin="15"
+                                    Background="#00ddc5"
+                                    CornerRadius="50"
+                                    >
+
+                                <fa:ImageAwesome Icon="User" Width="20" Foreground="#fff"/>
+                            </Border>
+                            <TextBlock Text="Admin" 
+                                       VerticalAlignment="Center"
+                                       Foreground="#fff"
+                                       FontWeight="Bold"
+                                       FontFamily="/Fonts/#Sulphur Point" FontSize="18"/>
+                            <Button Style="{StaticResource Close}" Content="X" FontSize="11" Margin="110,5,0,0" VerticalAlignment="Top"  FontWeight="ExtraBold"  Command="{Binding closeCommand}"/>
+
+                        </StackPanel>
                     </Border>
-                    <Border Background="#bab4a2" Height="50" Width="300" CornerRadius="5" Margin="1 10 0 0">
-                        <Label Content="Operator . . ." Margin="10 0 0 0" FontSize="26"/>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <ListView Background="Transparent" x:Name="listView">
+                        <StackPanel Orientation="Horizontal">
+                            <Border BorderThickness="1" Width="30" 
+                                    Height="30"
+                                    HorizontalAlignment="Left"
+                                    Margin="10"
+                                    Background="#00ddc5"
+                                    CornerRadius="10"
+                                    >
+                                <fa:ImageAwesome Width="12" Icon="User" Foreground="#fff"/>
+                            </Border>
+                            <Border CornerRadius="10" Width="150" Height="30" Background="#1f1f1f">
+                                <TextBlock VerticalAlignment="Center" Padding="10,0,0,0" HorizontalAlignment="Left" Foreground="#fff" Text="Sikayetiniz nedir?" TextWrapping="Wrap"/>
+                            </Border>
+                        </StackPanel>
+                    </ListView>
+                </Grid>
+                <Grid Grid.Row="2">
+                    <TextBlock MouseDown="textBlock_MouseDown" x:Name="textBlock" Margin="50,0,0,0" Panel.ZIndex="1" Text="Mesajinizi Gonderin" Foreground="gray" VerticalAlignment="Center"/>
+                    <Border BorderThickness="1"   CornerRadius="10">
+                        <TextBox x:Name="txtBox" TextChanged="textBox_TextChanged"  Foreground="#fff" Padding="10,15,0,0" Text="{Binding xesteSikayeti.content}"  Width="220" BorderBrush="Transparent" Height="50" Background="#272626">
+                            
+                        </TextBox>
                     </Border>
-                </StackPanel>
-                <ListBox Width="350" Height="150" Margin="0 20 0 0"/>
-                <StackPanel Orientation="Horizontal" Margin="25 0 0 0">
-                    <TextBox x:Name="sikayetTextBox" Margin="0 10 0 0" FontSize="26" Background="#bab4a2" Width="300" Text="{Binding xesteSikayeti.content}"/>
-                    <Button Content="SEND" Margin="10 10 0 0" Height="30" Command="{Binding sendCommand}"/>
-                </StackPanel>
-            </StackPanel>
+                    <Button Click="Button_Click"  HorizontalAlignment="Right" Command="{Binding sendCommand}" BorderBrush="Transparent" Background="Transparent">
+                        <fa:ImageAwesome Icon="Send" Margin="0,0,10,0" Foreground="#7C01F5" Width="25" HorizontalAlignment="Right"/>
+                    </Button>
+                </Grid>
+
+            </Grid>
         </Border>
+      
     </Grid>
 </Page>

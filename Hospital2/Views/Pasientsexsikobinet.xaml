@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Hospital.Views"
         mc:Ignorable="d"
-        Title="Pasientsexsikobinet" WindowState="Maximized"  Background="#eaeaf2"  Height="690"   Width="400" WindowStartupLocation="CenterScreen">
+        Title="Pasientsexsikobinet" WindowState="Maximized"  Background="#eaeaf2"  Height="690"   Width="700" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="0.3*"/>
@@ -22,55 +22,43 @@
         </Grid>
 
         <Grid Grid.Row="1">
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,0">
-                <StackPanel>
-                    <Border Style="{StaticResource borders}">
-                        <Button Style="{StaticResource buttons}" Command="{Binding qebulCommand}">
-                            <StackPanel Orientation="Vertical">
-                                <Image Source="/Images/registration.png" Margin="0,20,0,0" Width="40" VerticalAlignment="Top"/>
-                                <TextBlock Text="Qebul" FontWeight="Bold" Foreground="#afafaf"  HorizontalAlignment="Center" Margin="0,30,0,0"/>
-                            </StackPanel>
-                        </Button>
-                    </Border>
-                </StackPanel>
 
-                <StackPanel>
-                    <Border Style="{StaticResource borders}" Margin="50,0,0,0">
-                        <Button Style="{StaticResource buttons}"
-                                Command="{Binding onlineNovbeCommand}">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,80,0,0">
+                <StackPanel Orientation="Vertical">
+                    <Border Style="{StaticResource borders}">
+                        <Button Style="{StaticResource buttons}" Command="{Binding onlineNovbeCommand}">
                             <StackPanel Orientation="Vertical">
-                                <Image Source="/Images/queue.png" Margin="0,20,0,0" Width="40" VerticalAlignment="Top"/>
+                                <Image Source="/Images/queue.png" Width="40"/>
                                 <TextBlock Text="Online novbe" FontWeight="Bold" Foreground="#afafaf"  HorizontalAlignment="Center" Margin="0,30,0,0"/>
                             </StackPanel>
                         </Button>
+
                     </Border>
                 </StackPanel>
-
-            </StackPanel>
-            <StackPanel VerticalAlignment="Center" Orientation="Horizontal" Margin="0,60,0,0" HorizontalAlignment="Center">
-                <StackPanel>
+                <StackPanel Orientation="Vertical" Margin="40,0,40,0">
                     <Border Style="{StaticResource borders}">
                         <Button Style="{StaticResource buttons}" Command="{Binding sualCavabCommand}">
                             <StackPanel Orientation="Vertical">
-                                <Image Source="/Images/question.png" Margin="0,20,0,0" Width="40" VerticalAlignment="Top"/>
+                                <Image Source="/Images/question.png" Width="40"/>
                                 <TextBlock Text="Sual Cavab" FontWeight="Bold" Foreground="#afafaf"  HorizontalAlignment="Center" Margin="0,30,0,0"/>
                             </StackPanel>
                         </Button>
+
                     </Border>
                 </StackPanel>
-
-                <StackPanel>
-                    <Border Style="{StaticResource borders}" Margin="50,0,0,0">
+                <StackPanel Orientation="Vertical">
+                    <Border Style="{StaticResource borders}">
                         <Button Style="{StaticResource buttons}" Command="{Binding laboratoriyaCommand}">
                             <StackPanel Orientation="Vertical">
-                                <Image Source="/Images/laboratory.png" Margin="0,20,0,0" Width="40" VerticalAlignment="Top"/>
-                                <TextBlock  TextWrapping="Wrap" Text="Laboratoriya" FontWeight="Bold" Foreground="#afafaf"  HorizontalAlignment="Center" Margin="0,30,0,0"/>
+                                <Image Source="/Images/laboratory.png" Width="40"/>
+                                <TextBlock Text="Laboratoriya" FontWeight="Bold" Foreground="#afafaf"  HorizontalAlignment="Center" Margin="0,30,0,0"/>
                             </StackPanel>
                         </Button>
+
                     </Border>
                 </StackPanel>
-
             </StackPanel>
+           
         </Grid>
         <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Grid.Row="1" Margin="0,0,0,30" />
     </Grid>

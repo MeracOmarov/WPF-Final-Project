@@ -28,6 +28,43 @@ namespace Hospital.Pages
             DataContext = new ClassSualCavab();
         }
 
+        
 
+        private void textBlock_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            txtBox.Focus();
+        }
+
+        private void textBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+            if (!string.IsNullOrEmpty(txtBox.Text) || txtBox.Text.Length >0)
+            {
+                textBlock.Visibility = Visibility.Collapsed;
+            }
+            else if (string.IsNullOrEmpty(txtBox.Text))
+            {
+                textBlock.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                textBlock.Visibility=Visibility.Visible;
+            }
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+
+            if (txtBox.Text.Length==0|| txtBox.Text.Length <0 )
+            {
+                MessageBox.Show("Xeta");
+            }
+            else
+            {
+                txtBox.Text = ""; 
+                MessageBox.Show("Sikayetiniz ugurla gonderildi!!");
+            }
+        }
     }
 }

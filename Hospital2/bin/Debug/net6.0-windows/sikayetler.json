@@ -1,6 +1,6 @@
 [
   {
-    "content": null,
+    "content": "salam",
     "pasientSikayeti": {
       "Name": "Ibrahim",
       "Surname": "Asadov",
@@ -15,7 +15,7 @@
     }
   },
   {
-    "content": null,
+    "content": "qwer\u0027",
     "pasientSikayeti": {
       "Name": "Ibrahim",
       "Surname": "Asadov",
