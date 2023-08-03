@@ -19,10 +19,12 @@ namespace Hospital.Pages
     
     public partial class Online_novbe : Page
     {
+        public static Online_novbe ?online_Novbe;
         public Online_novbe()
         {
             InitializeComponent();
             DataContext = new ClassOnlineNovbe();
+            online_Novbe = this;
         }
     }
 }

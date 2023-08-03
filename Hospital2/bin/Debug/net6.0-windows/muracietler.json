@@ -1,10 +1,5 @@
 [
   {
-    "analizNovu": null,
-    "gun": null,
-    "saat": null,
-    "muaine": null,
-    "hekim": null,
     "pasients": {
       "Name": "Ibrahim",
       "Surname": "Asadov",
@@ -17,6 +12,31 @@
       "Password": "ibrahim123",
       "againPassword": "ibrahim123"
     },
-    "xestexana": null
+    "analizNovu": "Histoloji",
+    "gun": "Cersembe",
+    "saat": "15:05:18:00",
+    "xestexana": null,
+    "muaine": "Lor",
+    "hekim": "Uzman Xursud Huseynova"
+  },
+  {
+    "pasients": {
+      "Name": "Ibrahim",
+      "Surname": "Asadov",
+      "fathersName": "Perviz",
+      "birthday": "09/10/2004",
+      "seriyaID": "AA2685424",
+      "Gender": "kisi",
+      "Number": "070-404-03-00",
+      "Mail": "ibrahimasadov31@gmail.com",
+      "Password": "ibrahim123",
+      "againPassword": "ibrahim123"
+    },
+    "analizNovu": "Histoloji",
+    "gun": "Bazar ertesi",
+    "saat": "15:05:18:00",
+    "xestexana": null,
+    "muaine": "Lor",
+    "hekim": "Uzman Veli Ceferov"
   }
 ]

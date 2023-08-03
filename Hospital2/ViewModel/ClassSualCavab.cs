@@ -40,9 +40,11 @@ namespace HOSBITAL.ViewModel
 
         public void Send(object? param)
         {
+            if (xesteSikayeti!.content == "") { return; }
             status = Visibility.Visible;
             xesteSikayeti!.pasientSikayeti = PasientlerDB.CurrentPasient;
-    
+            
+
             SikayetlerViewModel.xesteSikayetleri.Add(xesteSikayeti);
             
             SikayetlerViewModel.WriteData(SikayetlerViewModel.xesteSikayetleri, "sikayetler");
@@ -58,7 +60,7 @@ namespace HOSBITAL.ViewModel
         public ClassSualCavab()
         {
             SikayetlerViewModel.xesteSikayetleri = SikayetlerViewModel.ReadData<ObservableCollection<XesteSikayeti>>("sikayetler")!;
-
+            status = Visibility.Collapsed;
             sendCommand = new RealCommand(Send);
             closeCommand = new RealCommand(Close);  
         }

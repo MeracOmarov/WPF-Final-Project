@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -51,20 +52,19 @@ namespace Hospital.Pages
                 textBlock.Visibility=Visibility.Visible;
             }
         }
-
+        
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
-
-            if (txtBox.Text.Length==0|| txtBox.Text.Length <0 )
-            {
+            if(txtBox.Text=="") {
                 MessageBox.Show("Xeta");
             }
             else
             {
-                txtBox.Text = ""; 
-                MessageBox.Show("Sikayetiniz ugurla gonderildi!!");
+                border.Visibility=Visibility.Visible;
+                chat.Visibility = Visibility.Visible;
             }
+            txtBox.Text = "";
+
         }
     }
 }

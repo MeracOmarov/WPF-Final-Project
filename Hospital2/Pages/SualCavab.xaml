@@ -60,20 +60,39 @@
                         </StackPanel>
 
 
-                        <Border CornerRadius="10" Width="150" Height="30" Background="#1f1f1f" Visibility="{Binding status}" HorizontalAlignment="Right">
+                        <Border x:Name="border" CornerRadius="10" Width="150" Height="30" Background="#1f1f1f" Visibility="{Binding status}" HorizontalAlignment="Right">
                             <TextBlock VerticalAlignment="Center" Padding="10,0,0,0" HorizontalAlignment="Left" Foreground="#fff"  Text="{Binding xesteSikayeti.content}" TextWrapping="Wrap"/>
                         </Border>
+
+                        <StackPanel Visibility="Collapsed" Orientation="Horizontal" Margin="0 20 0 20" x:Name="chat">
+                            <Border BorderThickness="1" Width="30" 
+                                    x:Name="border1"
+                                    Height="30"
+                                    HorizontalAlignment="Left"
+                                    Margin="10"
+                                    Background="#00ddc5"
+                                    CornerRadius="10"
+                                    
+                                    >
+                                <fa:ImageAwesome Width="12" Icon="User" Foreground="#fff"/>
+                            </Border>
+                            <Border CornerRadius="10" Width="150" Height="30" Background="#1f1f1f">
+                                <TextBlock VerticalAlignment="Center" Padding="10,0,0,0" HorizontalAlignment="Left" Foreground="#fff" Text="Sikayetiniz qebul edildi" TextWrapping="Wrap"/>
+                            </Border>
+                        </StackPanel>
+
+
 
                     </StackPanel>
                 </Grid>
                 <Grid Grid.Row="2">
-                    <TextBlock MouseDown="textBlock_MouseDown" x:Name="textBlock" Margin="50,0,0,0" Panel.ZIndex="1" Text="Mesajinizi Gonderin" Foreground="gray" VerticalAlignment="Center"/>
+                    <TextBlock MouseDown="textBlock_MouseDown" x:Name="textBlock" Margin="50,18,0,0" Panel.ZIndex="1" Text="Mesajinizi Gonderin" Foreground="gray" VerticalAlignment="Top"/>
                     <Border BorderThickness="1"   CornerRadius="10">
                         <TextBox x:Name="txtBox" TextChanged="textBox_TextChanged"  Foreground="#fff" Padding="10,15,0,0" Text="{Binding xesteSikayeti.content}"  Width="220" BorderBrush="Transparent" Height="50" Background="#272626">
 
                         </TextBox>
                     </Border>
-                    <Button Click="Button_Click"  HorizontalAlignment="Right" Command="{Binding sendCommand}" BorderBrush="Transparent" Background="Transparent">
+                    <Button x:Name="btn" Click="Button_Click"  HorizontalAlignment="Right" Command="{Binding sendCommand}" BorderBrush="Transparent" Background="Transparent">
                         <fa:ImageAwesome Icon="Send" Margin="0,0,10,0" Foreground="#7C01F5" Width="25" HorizontalAlignment="Right"/>
                     </Button>
                 </Grid>

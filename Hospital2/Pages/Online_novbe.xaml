@@ -17,7 +17,7 @@
                         <Button Style="{StaticResource Close}" Content="X" FontSize="11" Margin="195,0,0,0" FontWeight="ExtraBold" Command="{Binding Close_command}"/>
                     </StackPanel>
 
-                    <ComboBox Width="340" Height="40" SelectedItem="{Binding xesteMuracieti.analizNovu}">
+                    <ComboBox x:Name="analizNovu" Width="340" Height="40" SelectedItem="{Binding xesteMuracieti.analizNovu}">
                         <ComboBox.Resources>
                             <Style TargetType="ComboBoxItem">
                                 <Setter Property="Foreground" Value="Black" />
@@ -45,7 +45,7 @@
                     </ComboBox>
                     <Label Content="Gun" Style="{StaticResource Style}"/>
 
-                    <ComboBox Width="340" Height="40" SelectedItem="{Binding xesteMuracieti.gun}">
+                    <ComboBox Name="gun" Width="340" Height="40" SelectedItem="{Binding xesteMuracieti.gun}">
                         <ComboBox.Resources>
                             <Style TargetType="ComboBoxItem">
                                 <Setter Property="Foreground" Value="Black" />
@@ -75,7 +75,7 @@
 
                     <Label Content="Saat" Style="{StaticResource Style}"/>
 
-                    <ComboBox Width="340" Height="40" SelectedItem="{Binding xesteMuracieti.saat}">
+                    <ComboBox x:Name="saat" Width="340" Height="40" SelectedItem="{Binding xesteMuracieti.saat}">
                         <ComboBox.Resources>
                             <Style TargetType="ComboBoxItem">
                                 <Setter Property="Foreground" Value="Black" />
@@ -102,7 +102,7 @@
                     
                     <Label Content="Muaine" Style="{StaticResource Style}"/>
 
-                    <ComboBox Width="340" Height="40" SelectedItem="{Binding xesteMuracieti.muaine}">
+                    <ComboBox x:Name="muaine" Width="340" Height="40" SelectedItem="{Binding xesteMuracieti.muaine}">
                         <ComboBox.Resources>
                             <Style TargetType="ComboBoxItem">
                                 <Setter Property="Foreground" Value="Black" />
@@ -133,7 +133,7 @@
                     <StackPanel>
                         <Label Content="Hekim" Style="{StaticResource Style}"/>
 
-                        <ComboBox Width="340" Height="40" SelectedItem="{Binding xesteMuracieti.hekim}">
+                        <ComboBox x:Name="hekim" Width="340" Height="40" SelectedItem="{Binding xesteMuracieti.hekim}">
                             <ComboBox.Resources>
                                 <Style TargetType="ComboBoxItem">
                                     <Setter Property="Foreground" Value="Black" />

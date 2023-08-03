@@ -10,5 +10,29 @@
     "Mail": "ibrahimasadov31@gmail.com",
     "Password": "ibrahim123",
     "againPassword": "ibrahim123"
+  },
+  {
+    "Name": "Merac",
+    "Surname": "Omerov",
+    "fathersName": "Eldar",
+    "birthday": "05/01/2000",
+    "seriyaID": "AA2685425",
+    "Gender": "kisi",
+    "Number": "070-576-28-47",
+    "Mail": "meracomarov@gmail.com",
+    "Password": "Merac2000",
+    "againPassword": "Merac2000"
+  },
+  {
+    "Name": "Hesen",
+    "Surname": "Abdullazade",
+    "fathersName": "Bayram",
+    "birthday": "09/10/2007",
+    "seriyaID": "AA2685426",
+    "Gender": "kisi",
+    "Number": "070-535-55-35",
+    "Mail": "hesebabdullazade@gmail.com",
+    "Password": "hesen123",
+    "againPassword": "hesen123"
   }
 ]
